@@ -1,0 +1,472 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% I, the copyright holder of this work, release this work into the
+%% public domain. This applies worldwide. In some countries this may
+%% not be legally possible; if so: I grant anyone the right to use
+%% this work for any purpose, without any conditions, unless such
+%% conditions are required by law.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{beamer}
+\usetheme[faculty=phil]{fibeamer}
+\usepackage[utf8]{inputenc}
+\usepackage[
+  main=english, %% By using `czech` or `slovak` as the main locale
+                %% instead of `english`, you can typeset the
+                %% presentation in either Czech or Slovak,
+                %% respectively.
+  czech, slovak %% The additional keys allow foreign texts to be
+]{babel}        %% typeset as follows:
+%%
+%%   \begin{otherlanguage}{czech}   ... \end{otherlanguage}
+%%   \begin{otherlanguage}{slovak}  ... \end{otherlanguage}
+%%
+%% These macros specify information about the presentation
+\title{Classical Black Holes} %% that will be typeset on the
+\subtitle{01. Introduction. General Relativity Review} %% title page.
+\author{Edward Larra\~{n}aga}
+%% These additional packages are used within the document:
+\usepackage{ragged2e}  % `\justifying` text
+\usepackage{booktabs}  % Tables
+\usepackage{tabularx}
+\usepackage{tikz}      % Diagrams
+\usetikzlibrary{calc, shapes, backgrounds}
+\usepackage{amsmath, amssymb}
+\usepackage{url}       % `\url`s
+\usepackage{listings}  % Code listings
+\frenchspacing
+\begin{document}
+  \frame{\maketitle}
+
+  \AtBeginSection[]{% Print an outline at the beginning of sections
+   	\begin{frame}<beamer>
+    	\footnotesize
+      	{\frametitle{Outline for Part \thesection}
+      	\tableofcontents[currentsection]}
+    \end{frame}}
+    
+    
+    \section{Introduction}
+    
+    \subsection{General Information}
+    \begin{frame}{General Information}
+    	Graduate Course\\ 
+        MSc. in Astronomy\\\bigskip
+        
+      	Wednesday 16:00 - 20:00 \\
+      	Room 415-117\\\bigskip
+    \end{frame}
+	
+    \subsection{Contents}
+    \begin{frame}{Contents}  
+    	\begin{table}[!b]
+        {\carlitoTLF % Use monospaced lining figures
+        \begin{tabularx}{\textwidth}{Xr}
+          \textbf{Subject} & \textbf{Lecture} \\
+          \toprule
+          \textbf{Introduction}. General Relativity review I	& 1\\ 
+          General Relativity review II. Black Holes in GR	& 2  \\   
+          Schwarzschild's Solution. Properties. Coordinates	& 3  \\    
+          Geometry. Penrose Diagrams. Horizons. Definition of a Black Hole	& 4  \\ 
+          Rotating Black Hole. Properties. Geometry	& 5   \\    
+          \textbf{Astrophysics}. Gravitational Collapse. Stellar Black Holes	& 6  \\    
+          Supermassive Black Holes. Sagittarius A*	& 7  \\    
+          Motion of Massive Particles in Schwarzschild's spacetime	& 8  \\    
+          \bottomrule
+        \end{tabularx}}
+        
+    	\end{table}
+	\end{frame}
+    
+    \begin{frame}{Contents}  
+    	\begin{table}[!b]
+        {\carlitoTLF % Use monospaced lining figures
+        \begin{tabularx}{\textwidth}{Xr}
+          \textbf{Subject} & \textbf{Lecture} \\
+          \toprule
+          Motion of Massless Particles in Schwarzschild's spacetime	& 9  \\    
+          Motion of Massive Particles in Kerr's spacetime	& 10  \\    
+          Motion of Massless Particles in Kerr's spacetime. Shadow of a Black Hole	& 11  \\    
+          \textbf{Accretion}. Spherical and Cylindrical accretion	& 12  \\ 
+          Accretion Disks. Spectra	& 13   \\    
+          ADAF. Binary Systems	& 14  \\    
+          Observational Evidence of Black Holes existence	& 15   \\    
+          ** Relativistic Jets	& 16  \\    
+          \bottomrule
+        \end{tabularx}}
+        
+    	\end{table}
+	\end{frame}
+
+    \subsection{Evaluation}  
+    \begin{frame}{Evaluation}
+    	\begin{itemize}
+        	\item Introduction to Investigation Project: $60\% $
+            \item Exercises: $40\% $
+       	\end{itemize}         
+      \bigskip
+    \end{frame}
+
+	\begin{frame}{Evaluation}
+    	\begin{itemize}
+        	\item Introduction to Investigation Project: $60\% $
+            \begin{itemize}
+            	\item Groups: up to 6 students
+                \item Apply the course subjects to a particular black hole.  
+            \end{itemize}
+            \item Exercises: $40\% $
+            \begin{itemize}
+            	\item Groups: up to 6 students
+                \item Weekly exercises.
+                \item \TeX
+            \end{itemize}
+       	\end{itemize}         
+      \bigskip
+    \end{frame}
+    
+    \subsection{Tutoring}  
+    \begin{frame}{Tutoring Hours}
+    	\begin{itemize}
+        	\item Tuesday 09:00 - 11:00
+            \item Friday 11:00 - 13:00
+       	\end{itemize}         
+      \bigskip
+    \end{frame}
+    
+    \subsection{References}
+    \begin{frame}[allowframebreaks]{References}
+      \begin{thebibliography}{9}
+        
+        \bibitem{Raine}
+            D. Raine and E. Thomas  
+            \emph{Black Holes. An Introduction}. 
+            Second Edition. Imperial College Press. 2010
+            
+        \bibitem{Frolov1998}
+            V. P. Frolov, and I. D. Novikov \emph{Black Hole Physics: Basic Concepts and New Developments}. 
+            Dordrecht: Kluwer 1998
+            
+        \bibitem{Frolov2011}
+            V. P. Frolov and A. Zelnikov 
+            \emph{Introduction to Black Hole Physics}. 
+            Oxford University Press. 2011
+            
+        \bibitem{Romero}
+            G. E. Romero and G. S. Vila.  
+            \emph{Introduction to Black Hole Astrophysics}. 
+            Lecture Notes in Physics 876. Springer 2014
+            
+        \bibitem{Bambi}
+            C. Bambi. 
+            \emph{Black Holes: A Laboratory for Testing Strong Gravity}. 
+            Springer 2017
+         
+         \bibitem{Townsend}
+         	P. K. Townsend.  
+            \emph{Black Holes. Lecture Notes}. 
+            Cambridge University. U.K. 1997
+            
+          \bibitem{Meier}
+          	D. L. Meier. 
+            \emph{Black Hole Astrophysics. The Engine Paradigm}. 
+            Springer 2012
+          
+          \bibitem{Camenzid}
+          	M. Camenzind. 
+            \emph{Compact Objects in Astrophysics. White Dwarfs, Neutron stars and Black Holes}. 
+            Springer 2007  
+    	\end{thebibliography}
+    \end{frame}
+    
+    
+    
+
+    
+
+
+  	\section{General Relativity Review I}
+  	\begin{darkframes}
+  
+    	\subsection{Newtonian Gravity}
+    	\begin{frame}{Newton's Law of Gravity}
+			$$ \vec{F} = - \frac{G M m }{r^{2}} \hat{r}$$  
+       		\pause
+       		$$ G = 6.67 \times 10 ^{-11} \frac{\mathrm{N \cdot m^{2}}}{\mathrm{kg^{2}}} $$  
+    	\end{frame}
+    
+    	\begin{frame}{Poisson's Equation}
+			$$ \nabla^{2} \Phi =  4 \pi G \rho $$  
+    	\end{frame}
+    
+    \subsection{Metrics in Relativity}
+    	\begin{frame}
+        	\LARGE
+            {The Special Theory of Relativity}
+    	\end{frame}
+        
+    	\begin{frame}{Minkowskian Metric}
+    		$$ ds^{2} = \eta_{\mu \nu} dx^{\mu} dx^{\nu} $$
+            \pause
+            $$ \eta_{\mu \nu} = \left( \begin{array}{cccc}
+          		-1 & 0 & 0 & 0 \\
+           		0 & 1 & 0 & 0\\
+           		0 & 0 & 1 & 0\\ 
+           		0 & 0 & 0 & 1
+          	\end{array}\right) $$
+    	\end{frame}
+        
+        \begin{frame}{Motion of particles}
+        	$$ x^\mu = x^\mu (\tau) $$
+            \pause
+    		$$ U^\mu =\frac{dx^\mu}{d\tau} $$
+            \pause
+            $$ A^\mu =\frac{dU^\mu}{d\tau} $$  
+            \pause
+            \bigskip
+            $$ p^\mu = m_0 \frac{dx^\mu}{d\tau} = m_0 U^\mu $$
+    	\end{frame}
+		
+        \begin{frame}{Variational Principle. Action for a free particle}
+        	$$ S = \int_{\tau_1} ^{\tau_2} \left[ -\frac{1}{2} \eta_{\mu\nu} \dot{x}^\mu \dot{x}^\nu  \right] d\tau $$
+            \pause
+    		$$ \dot{x}^\mu = \frac{dx^\mu}{d\tau} = U^\mu  $$          
+    	\end{frame}
+        
+        \begin{frame}{Variational Principle. Action for a free particle}
+        	$$ \delta S = 0  \Longrightarrow  \frac{d}{d\tau} \left[ \frac{\partial L}{\partial \dot{x}^\mu} \right] = \frac{\partial L}{\partial x^\mu}$$
+            \pause
+    		$$ L = -\frac{1}{2} \eta_{\mu\nu} \dot{x}^\mu \dot{x}^\nu  $$ 
+    	\end{frame}
+        
+        \begin{frame}{Variational Principle. Geometric Interpretation}
+        	$$ S = \int_{\tau_1} ^{\tau_2} \left[ -\frac{1}{2} \eta_{\mu\nu} \dot{x}^\mu \dot{x}^\nu  \right] d\tau $$
+            \pause 
+            $$ ds^2 = \eta_{\mu\nu} dx^\mu dx^\nu $$
+            \pause            
+            $$ S \propto \int_{\tau_1} ^{\tau_2} ds $$            
+            \pause
+            \medskip
+            \justify
+    		{The variational principle $\delta S = 0$ can be interpreted geometrically as a condition giving an extreme value of the length of the trajectory of the particle in spacetime (i.e. worldline as a geodesic trajectory).}
+    	\end{frame}
+        
+        \begin{frame}
+        	\LARGE
+            {The General Theory of Relativity}
+    	\end{frame}
+        
+    	\begin{frame}{General Metric}
+    		$$ ds^{2} = g_{\mu \nu} dx^{\mu} dx^{\nu} $$
+            \pause
+            $$ g_{\mu \nu} = g_{\mu \nu} \left( x^{\alpha} \right) $$
+            \pause
+            $$ g_{\mu \nu} = g_{\nu \mu} $$
+           	\pause
+            \bigskip
+            \centering
+            {Considering general metrics is a result of the Equivalence Principle}           
+    	\end{frame}
+    
+	\subsection{Coordinate Transformations} 
+    	\begin{frame}{Coordinate Transformations in Special Relativity}
+        	$$ x^{\nu} \longrightarrow x^{\mu'} = \Lambda^{\mu'}_{\ \nu} x^{\nu} $$
+            \pause
+            $$ \Lambda^{\mu'}_{\ \nu} = \left( \begin{array}{cccc}
+          		\gamma & -\gamma \beta & 0 & 0 \\
+           		-\gamma \beta & \gamma & 0 & 0\\
+           		0 & 0 & 1 & 0\\ 
+           		0 & 0 & 0 & 1
+          	\end{array}\right) $$
+            \pause
+            $$ \beta = \frac{v}{c} $$
+            \pause
+            $$ \gamma = \frac{1}{\sqrt[]{1 - \beta^{2}}} $$
+    	\end{frame}
+        
+        \begin{frame}{General Coordinate Transformations}
+        	$$ x^{\mu} \longrightarrow x^{\mu'} = x^{\mu'} \left( x^{\mu} \right) $$
+            \pause
+            \bigskip 
+            
+            \centering
+            {Considering general coordinate transformations is a result of the Principle of Relativity in the General Sense}
+    	\end{frame}
+        
+    	\begin{frame}{General Coordinate Transformations}
+    		$$ dx^{\mu'} = \frac{\partial x^{\mu'}}{\partial x^{\alpha}}dx^{\alpha} $$
+    	\end{frame}
+        
+    \subsection{Tensors}
+    	\begin{frame}{Tensors}
+    		$$ T^{\mu' \nu'} = \frac{\partial x^{\mu'}}{\partial x^{\alpha}} 		
+            \frac{\partial x^{\nu'}}{\partial x^{\beta}} T^{\alpha \beta} $$
+            \pause
+            $$ T_{\mu' \nu'} = \frac{\partial x^{\alpha}}{\partial x^{\mu'}} 		
+            \frac{\partial x^{\beta}}{\partial x^{\nu'}} T_{\alpha \beta} $$
+    	\end{frame}
+    
+    \subsection{Covariant Derivative}
+   		\begin{frame}{Covariant Derivative} 
+        	$$ \nabla_{\mu} \phi = \partial_{\mu} \phi $$
+            \pause
+        	$$ \nabla_{\mu} A^{\nu} = \partial_{\mu} A^{\nu} + \Gamma^{\nu}_{\mu \sigma} A^{\sigma} $$
+            \pause
+            $$ \Gamma^{\nu}_{\mu \sigma} = \frac{1}{2} g^{\nu \alpha} \left[ \partial_{\mu} g_{\alpha \sigma} + \partial_{\sigma} g_{\mu \alpha} - \partial_{\alpha} g_{\mu \sigma} \right] $$           
+   		\end{frame}
+        
+        \begin{frame}{Covariant Derivative}   		
+        	$$ \nabla_{\mu} \phi = \partial_{\mu} \phi $$
+            $$ \nabla_{\mu} A^{\nu} = \partial_{\mu} A^{\nu} + \Gamma^{\nu}_{\mu \sigma} A^{\sigma} $$
+            \pause
+            $$ \nabla_{\mu} \omega_{\nu} = \partial_{\mu} \omega_{\nu} - \Gamma^{\sigma}_{\mu \nu} \omega_{\sigma} $$
+            \pause
+            $$ \nabla_{\mu} T^{\nu \sigma}_{\rho} = \partial_{\mu} T^{\nu \sigma}_{\rho} + \Gamma^{\nu}_{\mu \alpha} T^{\alpha \sigma}_{\rho} + \Gamma^{\sigma}_{\mu \alpha} T^{\nu \alpha}_{\rho} - \Gamma^{\alpha}_{\mu \rho} T^{\nu \sigma}_{\alpha} $$
+   		\end{frame} 
+        
+        \begin{frame}{Variational Principle. Action for a free particle}
+        	$$ S = \int_{\tau_1} ^{\tau_2} \left[ -\frac{1}{2} g_{\mu\nu} \dot{x}^\mu \dot{x}^\nu  \right] d\tau $$
+            \pause
+        	$$ \delta S = 0  \Longrightarrow  \frac{d}{d\tau} \left[ \frac{\partial L}{\partial \dot{x}^\mu} \right] = \frac{\partial L}{\partial x^\mu}$$
+            \pause
+    		$$ L = -\frac{1}{2} g_{\mu\nu} \dot{x}^\mu \dot{x}^\nu  $$ 
+    	\end{frame}
+        
+        \begin{frame}{Geodesics}
+    	Geodesics represent the trajectories of free particles.
+        $$ \frac{d^2 x^\mu}{d \tau^2} + \Gamma^\mu_{\alpha \beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0 $$
+        \pause
+         $$ \Gamma^{\mu}_{\alpha \beta} = \frac{1}{2} g^{\mu \sigma} \left[ \partial_{\alpha} g_{\sigma \beta} + \partial_{\beta} g_{\alpha \sigma} - \partial_{\sigma} g_{\alpha \beta} \right] $$   
+    	\end{frame}  
+   
+   	\subsection{Geodesics}
+    \begin{frame}{Geodesics}
+    	Geodesics represent the trajectories of free particles.
+        $$ \frac{d^2 x^\mu}{d \tau^2} + \Gamma^\mu_{\alpha \beta} \frac{dx^\alpha}{d\tau} \frac{dx^\beta}{d\tau} = 0 $$
+    \end{frame}
+	
+    \subsection{Killing Vectors and Symmetries}
+    \begin{frame}{Killing Vectors}  
+    	$$ L_k g_{\mu \nu}  = 0 $$
+        \pause
+        $$ \nabla_\mu k_\nu + \nabla_\nu k_\mu = 0 $$
+        \centering
+        {Killing's Equation}        
+	\end{frame}
+    
+    \begin{frame}{Killing Vectors}  
+    	Choosing an appropriate coordinate system, 
+        $$ k^\mu = \frac{\partial}{\partial \alpha} $$
+        \pause
+        $$ L_k g_{\mu \nu}  = \frac{\partial g_{\mu \nu}}{\partial \alpha} = 0 $$
+	\end{frame}
+    
+    \begin{frame}{Conserved Quantities associated with Killing Vectors}  
+        Given a particle moving with momentum $p^\mu$ in a spacetime with a Killing vector $k^\nu$, the quantity
+        $$ Q= k^\mu p_\mu $$
+        is conserved.
+	\end{frame}
+    
+    \begin{frame}{Killing Vectors}  
+   		\begin{block}{Example. Minkowski's Spacetime}
+        	$$ ds^{2} = - c^{2} dt^{2} + dx^{2} + dy^{2} + dz^{2}$$
+            10 Killing vectors. \alert{Maximally Symmetric} 
+            $$ k^\mu = a^{\mu \nu} x_\nu + b^\mu $$
+            with $ a^{\mu \nu} = -a^{\nu \mu}$
+      	\end{block}
+	\end{frame}
+    
+    \begin{frame}{Killing Vectors}  
+   		\begin{block}{Example. Spherically Symmetric Space}
+        	$$ ds^2 = dr^2 + r^2 d\theta^2 + r^2 \sin^2 \theta d\phi^{2}$$
+            3 Killing vectors. 
+            $$ \zeta^\mu = \frac{\partial}{\partial \phi} $$            
+      	\end{block}
+	\end{frame}
+
+	\subsection{Locally Measured Physical Quantities}
+    	\begin{frame}{Locally Measured Physical Quantities}
+        	Moving particle described by its momentum $p^\mu$.\\
+            \medskip
+            \pause
+            Observer moving with velocity $U^\alpha$.\\
+            \pause
+            \bigskip
+            The energy of the particle measured by this observer is calculated by the relation
+            $$ E = - p^\mu U_\mu $$    	
+    	\end{frame}
+	
+    \subsection{Curvature}  
+    \begin{frame}{Riemann Tensor}
+    	Riemann tensor is defined as
+		$$
+		R_{\;\mu\rho\nu}^{\lambda}=\partial_{\rho}\Gamma_{\nu\mu}^{\lambda}-			\partial_{\nu}\Gamma_{\rho\mu}^{\lambda}+\Gamma_{\rho\alpha}^{\lambda}\Gamma_{\nu\mu}^{\alpha}-\Gamma_{\nu\alpha}^{\lambda}\Gamma_{\rho\mu}^{\alpha},
+		$$
+        \pause
+		or with all of its indexes downstairs, 
+		$$
+ R_{\sigma\mu\rho\nu}=g_{\sigma\lambda}R_{\;\mu\rho\nu}^{\lambda}=g_{\sigma\lambda}\left[\partial_{\rho}\Gamma_{\nu\mu}^{\lambda}-\partial_{\nu}\Gamma_{\rho\mu}^{\lambda}+\Gamma_{\rho\alpha}^{\lambda}\Gamma_{\nu\mu}^{\alpha}-\Gamma_{\nu\alpha}^{\lambda}\Gamma_{\rho\mu}^{\alpha}\right].
+		$$
+    \end{frame}
+
+	\begin{frame}{Ricci Tensor}
+    	The Ricci tensor is obtained by contraction, 
+		$$
+		R_{\mu\nu}=g^{\sigma\rho}R_{\sigma\mu\rho\nu}.
+		$$
+    	\pause
+    	$$ R_{\mu\nu} = R_{\nu\mu}$$
+    \end{frame}
+    
+    \begin{frame}{Ricci Curvature Scalar}
+    	The curvature scalar is the contraction of Ricci,
+		$$ R = R_{\nu}^{\nu} = g^{\mu\nu}R_{\mu\nu}. $$
+    \end{frame}
+    
+    \subsection{Field Equations}
+    \begin{frame}{Einstein Tensor}
+    	The Einstein tensor is defined as
+		$$ G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R $$
+        \pause
+        $$ \nabla_\nu G_{\mu\nu} = 0 $$
+    \end{frame}
+    
+    \begin{frame}{Einstein Field Equations}
+    	Einstein field equations are 
+		$$ G_{\mu\nu} = R_{\mu\nu} - \frac{1}{2}g_{\mu\nu}R = 8\pi GT_{\mu\nu} $$
+    \end{frame}
+    
+    
+    \subsection{Energy-Momentum Tensor}  
+    \begin{frame}{Energy-Momentum Tensor}
+		\begin{itemize}
+			\item Provides a complete description of the energy and momentum for extended
+systems.
+			\item Is a symmetric $\left(2,0\right)$-tensor
+			\item Its components include the energy density, pressure and stresses
+			\item Usually it is defined as the ``flux of 4-momentum $p^{\nu}$ across
+a surface of constant $x^{\nu}$``
+			\item $ \nabla_\nu T^{\mu\nu} = 0$
+		\end{itemize}
+	\end{frame}
+    
+    \begin{frame}{Single Isolated Particle}
+		Position   	
+        $$x_{p}^{\mu}\left(\tau\right) = \left(t\left(\tau\right),\vec{r}_{p}\left(\tau\right)\right)$$
+        
+		\pause
+        Velocity 
+        $$\dot{x}_{p}\left(\tau\right) = U^{\mu}\left(\tau\right)$$
+        
+		\pause        
+        Energy Momentum Tensor
+		$$
+		T^{\alpha\beta} = \frac{E}{c^{2}}U^{\alpha}\left(\tau\right)U^{\beta}\left(\tau\right)\delta\left(\vec{r}-	\vec{r}_{p}\left(\tau\right)\right)
+		$$
+	\end{frame}
+    
+    
+		\begin{frame}{Next Lecture}
+        	\Large
+			{02. Black holes Introduction}
+		\end{frame}
+  \end{darkframes}
+\end{document}
