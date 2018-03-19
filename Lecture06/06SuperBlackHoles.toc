@@ -1,0 +1,11 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Black Holes in an Astrophysical Scenario}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Astrophysical Evidence of Black Holes existence}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Origin of Black Holes}{7}{0}{1}
+\beamer@subsectionintoc {1}{3}{Stellar Structure}{22}{0}{1}
+\beamer@subsectionintoc {1}{4}{Stellar Collapse}{34}{0}{1}
+\beamer@sectionintoc {2}{Mathematical Description of the Collapse}{51}{0}{2}
+\beamer@subsectionintoc {2}{1}{Spherically Symmetric Collapse}{52}{0}{2}
+\beamer@subsectionintoc {2}{2}{Dust Collapse}{63}{0}{2}
+\beamer@subsectionintoc {2}{3}{Homogeneous Dust Collapse}{95}{0}{2}
+\beamer@subsectionintoc {2}{4}{Inhomogeneous Dust Collapse}{122}{0}{2}
