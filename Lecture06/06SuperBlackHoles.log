@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 MAR 2018 16:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 MAR 2018 22:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1815,8 +1815,7 @@ Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
 . Defining command \siInBookmark with sig. 'om' on line 7433.
 .................................................
 \g__file_internal_ior=\read2
-)
-No file 06SuperBlackHoles.aux.
+) (./06SuperBlackHoles.aux)
 \openout1 = `06SuperBlackHoles.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
@@ -1837,6 +1836,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
@@ -1930,6 +1930,8 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
+
+(./06SuperBlackHoles.out) (./06SuperBlackHoles.out)
 \@outlinefile=\write5
 \openout5 = `06SuperBlackHoles.out'.
 
@@ -2045,12 +2047,12 @@ LaTeX Info: Redefining \selectfont on input line 30.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/05/19 v2.7g siunitx: Abbreviated units
-)
-No file 06SuperBlackHoles.nav.
+) (./06SuperBlackHoles.nav)
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 30.
 \c__siunitx_mathsf_int=\count314
 LaTeX Font Info:    Try loading font information for OT1+zavm on input line 30.
+
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/arev/ot1zavm.fd
 File: ot1zavm.fd 2006/05/30 Fontinst v1.929 font definitions for OT1/zavm.
@@ -2136,7 +2138,7 @@ LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 (Font)              scaled to size 5.10004pt on input line 30.
 
-<fibeamer/logo/mu/fibeamer-mu-phil-english.pdf, id=18, 227.85126pt x 91.34125pt
+<fibeamer/logo/mu/fibeamer-mu-phil-english.pdf, id=54, 227.85126pt x 91.34125pt
 >
 File: fibeamer/logo/mu/fibeamer-mu-phil-english.pdf Graphic file (type pdf)
  <use fibeamer/logo/mu/fibeamer-mu-phil-english.pdf>
@@ -2234,11 +2236,10 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fibea
-mer/logo/mu/fibeamer-mu-phil-english.pdf>]
-No file 06SuperBlackHoles.toc.
-[2
+mer/logo/mu/fibeamer-mu-phil-english.pdf>] (./06SuperBlackHoles.toc) [2
 
-] [3
+]
+[3
 
 ] [4
 
@@ -2268,10 +2269,10 @@ No file 06SuperBlackHoles.toc.
 
 ] [17
 
-]
-[18
+] [18
 
-] [19
+]
+[19
 
 ] [20
 
@@ -2293,45 +2294,16 @@ No file 06SuperBlackHoles.toc.
 
 ] [29
 
-]
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
-Package microtype Info: Character `textendash ' is missing
-(microtype)             in font `OT1/zavm/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textemdash ' is missing
-(microtype)             in font `OT1/zavm/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textendash ' is missing
-(microtype)             in font `OT1/zavm/m/n/5'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textemdash ' is missing
-(microtype)             in font `OT1/zavm/m/n/5'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 7.65005pt on input line 125.
-LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 4.25003pt on input line 125.
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 125.
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 125.
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 4.25003pt on input line 125.
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 125.
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 125.
- [30
+] [30
 
 ] [31
 
 ] [32
 
-]
-[33
+] [33
 
-] [34
+]
+[34
 
 ] [35
 
@@ -2359,16 +2331,14 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
 
 ] [47
 
-]
-[48
-
-] [49
-
-] [50
+] [48
 
 ]
-No file 06SuperBlackHoles.toc.
-[51
+[49
+
+] (./06SuperBlackHoles.toc) [50
+
+] [51
 
 ] [52
 
@@ -2380,10 +2350,36 @@ No file 06SuperBlackHoles.toc.
 
 ] [56
 
-] [57
-
 ]
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 226.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 237.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `OT1/zavm/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `OT1/zavm/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `OT1/zavm/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `OT1/zavm/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 7.65005pt on input line 237.
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 4.25003pt on input line 237.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 237.
+LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
+(Font)              scaled to size 7.65005pt on input line 237.
+LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
+(Font)              scaled to size 4.25003pt on input line 237.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 237.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
+(Font)              scaled to size 5.0pt on input line 237.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 237.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -2391,21 +2387,23 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 (/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
-) [58
+) [57
 
 ]
-[59
+[58
+
+] [59
 
 ] [60
 
 ] [61
 
-] [62
-
 ]
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 244.
- [63
+(Font)              scaled to size 20.74pt on input line 255.
+ [62
+
+] [63
 
 ] [64
 
@@ -2425,10 +2423,10 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [72
 
-] [73
-
 ]
-[74
+[73
+
+] [74
 
 ] [75
 
@@ -2456,10 +2454,10 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [87
 
-] [88
-
 ]
-[89
+[88
+
+] [89
 
 ] [90
 
@@ -2485,10 +2483,10 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [101
 
-] [102
-
 ]
-[103
+[102
+
+] [103
 
 ] [104
 
@@ -2510,10 +2508,10 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [113
 
-] [114
-
 ]
-[115
+[114
+
+] [115
 
 ] [116
 
@@ -2521,30 +2519,30 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [118
 
-] [119
-
 ]
-<figures/EFCollapse.jpeg, id=674, 717.68124pt x 584.1825pt>
+<figures/EFCollapse.jpeg, id=719, 717.68124pt x 584.1825pt>
 File: figures/EFCollapse.jpeg Graphic file (type jpg)
 
 <use figures/EFCollapse.jpeg>
-Package pdftex.def Info: figures/EFCollapse.jpeg used on input line 472.
+Package pdftex.def Info: figures/EFCollapse.jpeg used on input line 483.
 (pdftex.def)             Requested size: 179.41986pt x 146.04526pt.
- [120
+ [119
 
  <./figures/EFCollapse.jpeg>]
-<figures/EFCollapse2.jpeg, id=681, 666.49pt x 642.4pt>
+<figures/EFCollapse2.jpeg, id=725, 666.49pt x 642.4pt>
 File: figures/EFCollapse2.jpeg Graphic file (type jpg)
 
 <use figures/EFCollapse2.jpeg>
-Package pdftex.def Info: figures/EFCollapse2.jpeg used on input line 481.
+Package pdftex.def Info: figures/EFCollapse2.jpeg used on input line 492.
 (pdftex.def)             Requested size: 166.62209pt x 160.59961pt.
- [121
+ [120
 
- <./figures/EFCollapse2.jpeg>] [122
+ <./figures/EFCollapse2.jpeg>] [121
 
 ]
-[123
+[122
+
+] [123
 
 ] [124
 
@@ -2566,10 +2564,10 @@ Package pdftex.def Info: figures/EFCollapse2.jpeg used on input line 481.
 
 ] [133
 
-] [134
-
 ]
-[135
+[134
+
+] [135
 
 ] [136
 
@@ -2579,19 +2577,17 @@ Package pdftex.def Info: figures/EFCollapse2.jpeg used on input line 481.
 
 ] [139
 
-] [140
-
 ]
-<figures/EFCollapseInhomogeneous.jpeg, id=787, 745.78625pt x 614.295pt>
+<figures/EFCollapseInhomogeneous.jpeg, id=832, 745.78625pt x 614.295pt>
 File: figures/EFCollapseInhomogeneous.jpeg Graphic file (type jpg)
 
 <use figures/EFCollapseInhomogeneous.jpeg>
 Package pdftex.def Info: figures/EFCollapseInhomogeneous.jpeg used on input lin
-e 563.
+e 574.
 (pdftex.def)             Requested size: 186.4461pt x 153.57336pt.
- [141
+ [140
 
- <./figures/EFCollapseInhomogeneous.jpeg>] [142
+ <./figures/EFCollapseInhomogeneous.jpeg>] [141
 
 ]
 \tf@nav=\write6
@@ -2603,11 +2599,11 @@ e 563.
 \tf@snm=\write8
 \openout8 = `06SuperBlackHoles.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 573.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 573.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 584.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 584.
  (./06SuperBlackHoles.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 573.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 573.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 584.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 584.
 
 
 Package rerunfilecheck Warning: File `06SuperBlackHoles.out' has changed.
@@ -2615,40 +2611,52 @@ Package rerunfilecheck Warning: File `06SuperBlackHoles.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `06SuperBlackHoles.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  B5EAE5F4CB3674A7279E620AAB272146;824.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
+(rerunfilecheck)             Before: A43B3648EBDFCD4FBF6DEE921872AF15;754
+(rerunfilecheck)             After:  45AA3A98385B157DFDEC9F85BF2F39EC;765.
  ) 
 Here is how much of TeX's memory you used:
- 40579 strings out of 492995
- 805659 string characters out of 6132704
- 857604 words of memory out of 5000000
- 42914 multiletter control sequences out of 15000+600000
- 250394 words of font info for 202 fonts, out of 8000000 for 9000
+ 40792 strings out of 492995
+ 808753 string characters out of 6132704
+ 858936 words of memory out of 5000000
+ 43102 multiletter control sequences out of 15000+600000
+ 251950 words of font info for 209 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,16n,76p,10382b,1493s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2017/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/local/texlive/20
-17/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/local/texlive/2017/texmf-d
-ist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/2017/texmf-dist/font
-s/enc/dvips/arev/arevoml.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvip
-s/carlito/crlt_csjzgd.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/arev/ArevSans-Oblique.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/arev/ArevSans-Roman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/typ
-oland/carlito/Carlito-Bold.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-typoland/carlito/Carlito-Italic.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/typoland/carlito/Carlito.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdesign/mdbch/md
--chb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdesign/md
-bch/md-chb7y.pfb>
-Output written on 06SuperBlackHoles.pdf (142 pages, 561090 bytes).
+pdfTeX warning (dest): name{Outline0.2.4.118} has been referenced but does no
+t exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.3.91} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.2.59} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.2.1.48} has been referenced but does not e
+xist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Outline0.1.3.30} has been referenced but does not e
+xist, replaced by a fixed one
+
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/te
+xlive/2017/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/local/texlive/2017
+/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/2017/texmf-d
+ist/fonts/enc/dvips/arev/arevoml.enc}{/usr/local/texlive/2017/texmf-dist/fonts/
+enc/dvips/arev/arevoms.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/
+carlito/crlt_csjzgd.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/public/
+arev/ArevSans-Oblique.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/arev/ArevSans-Roman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/typol
+and/carlito/Carlito-Bold.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/ty
+poland/carlito/Carlito-Italic.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
+e1/typoland/carlito/Carlito.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1
+/nowacki/iwona/iwonar.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publi
+c/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9.p
+fb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdesign/mdbch/md-c
+hb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdesign/mdbc
+h/md-chb7y.pfb>
+Output written on 06SuperBlackHoles.pdf (141 pages, 559510 bytes).
 PDF statistics:
- 907 PDF objects out of 1000 (max. 8388607)
- 725 compressed objects within 8 object streams
- 295 named destinations out of 1000 (max. 500000)
- 50271 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 952 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
+ 297 named destinations out of 1000 (max. 500000)
+ 50343 words of extra memory for PDF output out of 51595 (max. 10000000)
 
