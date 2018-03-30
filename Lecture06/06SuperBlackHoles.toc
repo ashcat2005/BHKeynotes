@@ -2,9 +2,9 @@
 \beamer@sectionintoc {1}{Supermassive Black Holes in the Astrophysical Scenario}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Supermassive Black Holes}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Origin of Supermassive Black Holes}{6}{0}{1}
-\beamer@subsectionintoc {1}{3}{Intermediate Black Holes}{33}{0}{1}
-\beamer@sectionintoc {2}{Mathematical Description of the Collapse}{50}{0}{2}
-\beamer@subsectionintoc {2}{1}{Spherically Symmetric Collapse}{51}{0}{2}
-\beamer@subsectionintoc {2}{2}{Dust Collapse}{62}{0}{2}
-\beamer@subsectionintoc {2}{3}{Homogeneous Dust Collapse}{94}{0}{2}
-\beamer@subsectionintoc {2}{4}{Inhomogeneous Dust Collapse}{121}{0}{2}
+\beamer@subsectionintoc {1}{3}{Intermediate-Mass Black Holes}{33}{0}{1}
+\beamer@sectionintoc {2}{Mathematical Description of the Collapse}{49}{0}{2}
+\beamer@subsectionintoc {2}{1}{Spherically Symmetric Collapse}{50}{0}{2}
+\beamer@subsectionintoc {2}{2}{Dust Collapse}{61}{0}{2}
+\beamer@subsectionintoc {2}{3}{Homogeneous Dust Collapse}{93}{0}{2}
+\beamer@subsectionintoc {2}{4}{Inhomogeneous Dust Collapse}{120}{0}{2}
