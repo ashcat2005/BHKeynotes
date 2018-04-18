@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  4 APR 2018 16:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 APR 2018 23:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**05BlackHoleAstro.tex
-(./05BlackHoleAstro.tex
+**07Geodesics.tex
+(./07Geodesics.tex
 LaTeX2e <2017-04-15>
 Babel <3.10> and hyphenation patterns for 84 language(s) loaded.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/beamer.cls
@@ -1815,8 +1815,8 @@ Package: l3keys2e 2017/05/13 LaTeX2e option processing using LaTeX3 keys
 . Defining command \siInBookmark with sig. 'om' on line 7433.
 .................................................
 \g__file_internal_ior=\read2
-) (./05BlackHoleAstro.aux)
-\openout1 = `05BlackHoleAstro.aux'.
+) (./07Geodesics.aux)
+\openout1 = `07Geodesics.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
 LaTeX Font Info:    ... okay on input line 30.
@@ -1931,9 +1931,9 @@ LaTeX Info: Redefining \ref on input line 30.
 LaTeX Info: Redefining \pageref on input line 30.
 LaTeX Info: Redefining \nameref on input line 30.
 
-(./05BlackHoleAstro.out) (./05BlackHoleAstro.out)
+(./07Geodesics.out) (./07Geodesics.out)
 \@outlinefile=\write5
-\openout5 = `05BlackHoleAstro.out'.
+\openout5 = `07Geodesics.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> OT1/cmss/m/n on input line 30.
@@ -2047,7 +2047,7 @@ LaTeX Info: Redefining \selectfont on input line 30.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/siunitx/siunitx-abbreviations.cfg
 File: siunitx-abbreviations.cfg 2017/05/19 v2.7g siunitx: Abbreviated units
-) (./05BlackHoleAstro.nav)
+) (./07Geodesics.nav)
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 (Font)              scaled to size 6.0pt on input line 30.
 \c__siunitx_mathsf_int=\count314
@@ -2236,12 +2236,18 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./fibea
-mer/logo/mu/fibeamer-mu-phil-english.pdf>] (./05BlackHoleAstro.toc) [2
+mer/logo/mu/fibeamer-mu-phil-english.pdf>] (./07Geodesics.toc) [2
 
 ]
-[3
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
+(Font)              scaled to size 24.88pt on input line 43.
+ [3
 
-] [4
+]
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 49.
+
+[4
 
 ] [5
 
@@ -2249,9 +2255,18 @@ mer/logo/mu/fibeamer-mu-phil-english.pdf>] (./05BlackHoleAstro.toc) [2
 
 ] [7
 
-] [8
+]
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 72.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+) [8
 
-] [9
+]
+[9
 
 ] [10
 
@@ -2271,8 +2286,7 @@ mer/logo/mu/fibeamer-mu-phil-english.pdf>] (./05BlackHoleAstro.toc) [2
 
 ] [18
 
-]
-[19
+] [19
 
 ] [20
 
@@ -2282,7 +2296,8 @@ mer/logo/mu/fibeamer-mu-phil-english.pdf>] (./05BlackHoleAstro.toc) [2
 
 ] [23
 
-] [24
+]
+[24
 
 ] [25
 
@@ -2294,36 +2309,7 @@ mer/logo/mu/fibeamer-mu-phil-english.pdf>] (./05BlackHoleAstro.toc) [2
 
 ] [29
 
-]
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 125.
-Package microtype Info: Character `textendash ' is missing
-(microtype)             in font `OT1/zavm/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textemdash ' is missing
-(microtype)             in font `OT1/zavm/m/n/9'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textendash ' is missing
-(microtype)             in font `OT1/zavm/m/n/5'.
-(microtype)             Ignoring protrusion settings for this character.
-Package microtype Info: Character `textemdash ' is missing
-(microtype)             in font `OT1/zavm/m/n/5'.
-(microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 7.65005pt on input line 125.
-LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 4.25003pt on input line 125.
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 125.
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 125.
-LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 4.25003pt on input line 125.
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 125.
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 125.
- [30
+] [30
 
 ] [31
 
@@ -2331,22 +2317,29 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
 
 ] [33
 
-]
-[34
+] [34
 
 ] [35
 
 ] [36
 
-] [37
+]
+<figures/scheffpot.jpeg, id=286, 705.63625pt x 350.30875pt>
+File: figures/scheffpot.jpeg Graphic file (type jpg)
 
-] [38
+<use figures/scheffpot.jpeg>
+Package pdftex.def Info: figures/scheffpot.jpeg used on input line 177.
+(pdftex.def)             Requested size: 282.2495pt x 140.12102pt.
+ [37
+
+ <./figures/scheffpot.jpeg>] [38
 
 ] [39
 
 ] [40
 
-] [41
+]
+[41
 
 ] [42
 
@@ -2362,12 +2355,14 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
 
 ] [48
 
-]
-[49
+] [49
 
 ] [50
 
-] (./05BlackHoleAstro.toc) [51
+]
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
+(Font)              scaled to size 9.0pt on input line 235.
+ [51
 
 ] [52
 
@@ -2377,23 +2372,14 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
 
 ] [55
 
-] [56
+]
+[56
 
 ] [57
 
-]
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 226.
+] [58
 
-(/usr/local/texlive/2017/texmf-dist/tex/latex/lm/t1lmr.fd
-File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-(/usr/local/texlive/2017/texmf-dist/tex/latex/microtype/mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
-(RS)
-) [58
-
-]
-[59
+] [59
 
 ] [60
 
@@ -2401,10 +2387,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 ] [62
 
-]
-LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 20.74pt on input line 244.
- [63
+] [63
 
 ] [64
 
@@ -2420,14 +2403,14 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [70
 
-] [71
+]
+[71
 
 ] [72
 
 ] [73
 
-]
-[74
+] [74
 
 ] [75
 
@@ -2439,9 +2422,16 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [79
 
-] [80
+]
+<figures/kerrradii.jpeg, id=512, 687.56876pt x 389.455pt>
+File: figures/kerrradii.jpeg Graphic file (type jpg)
 
-] [81
+<use figures/kerrradii.jpeg>
+Package pdftex.def Info: figures/kerrradii.jpeg used on input line 338.
+(pdftex.def)             Requested size: 275.02263pt x 155.77924pt.
+ [80
+
+ <./figures/kerrradii.jpeg>] (./07Geodesics.toc) [81
 
 ] [82
 
@@ -2457,8 +2447,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [88
 
-]
-[89
+] [89
 
 ] [90
 
@@ -2470,7 +2459,8 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [94
 
-] [95
+]
+[95
 
 ] [96
 
@@ -2486,8 +2476,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [102
 
-]
-[103
+] [103
 
 ] [104
 
@@ -2497,148 +2486,101 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 
 ] [107
 
-] [108
+]
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `OT1/zavm/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `OT1/zavm/m/n/9'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `OT1/zavm/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `OT1/zavm/m/n/5'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 7.65005pt on input line 487.
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 4.25003pt on input line 487.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
+(Font)              scaled to size 5.0pt on input line 487.
+LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
+(Font)              scaled to size 7.65005pt on input line 487.
+LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
+(Font)              scaled to size 4.25003pt on input line 487.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
+(Font)              scaled to size 9.0pt on input line 487.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
+(Font)              scaled to size 5.0pt on input line 487.
 
-] [109
+Overfull \vbox (7.51955pt too high) detected at line 487
+ []
 
-] [110
-
-] [111
-
-] [112
-
-] [113
-
-] [114
+[108
 
 ]
-[115
+Overfull \vbox (7.51955pt too high) detected at line 487
+ []
 
-] [116
+[109
 
-] [117
-
-] [118
-
-] [119
-
-]
-<figures/EFCollapse.jpeg, id=727, 717.68124pt x 584.1825pt>
+] <figures/EFCollapse.jpeg, id=676, 717.68124pt x 584.1825pt>
 File: figures/EFCollapse.jpeg Graphic file (type jpg)
 
 <use figures/EFCollapse.jpeg>
-Package pdftex.def Info: figures/EFCollapse.jpeg used on input line 472.
+Package pdftex.def Info: figures/EFCollapse.jpeg used on input line 502.
 (pdftex.def)             Requested size: 179.41986pt x 146.04526pt.
- [120
+ [110
 
  <./figures/EFCollapse.jpeg>]
-<figures/EFCollapse2.jpeg, id=733, 666.49pt x 642.4pt>
+<figures/EFCollapse2.jpeg, id=683, 666.49pt x 642.4pt>
 File: figures/EFCollapse2.jpeg Graphic file (type jpg)
 
 <use figures/EFCollapse2.jpeg>
-Package pdftex.def Info: figures/EFCollapse2.jpeg used on input line 481.
+Package pdftex.def Info: figures/EFCollapse2.jpeg used on input line 511.
 (pdftex.def)             Requested size: 166.62209pt x 160.59961pt.
- [121
+ [111
 
- <./figures/EFCollapse2.jpeg>] [122
-
-]
-[123
-
-] [124
-
-] [125
-
-] [126
-
-] [127
-
-] [128
-
-] [129
-
-] [130
-
-] [131
-
-] [132
-
-] [133
-
-] [134
+ <./figures/EFCollapse2.jpeg>] [112
 
 ]
-[135
+[113
 
-] [136
+] [114
 
-] [137
-
-] [138
-
-] [139
-
-] [140
-
-]
-<figures/EFCollapseInhomogeneous.jpeg, id=838, 745.78625pt x 614.295pt>
-File: figures/EFCollapseInhomogeneous.jpeg Graphic file (type jpg)
-
-<use figures/EFCollapseInhomogeneous.jpeg>
-Package pdftex.def Info: figures/EFCollapseInhomogeneous.jpeg used on input lin
-e 563.
-(pdftex.def)             Requested size: 223.7376pt x 184.28992pt.
-
-Overfull \vbox (7.59259pt too high) detected at line 563
- []
-
-[141
-
- <./figures/EFCollapseInhomogeneous.jpeg>]
-<figures/CPCollapse.png, id=844, 597.23125pt x 845.1575pt>
-File: figures/CPCollapse.png Graphic file (type png)
-
-<use figures/CPCollapse.png>
-Package pdftex.def Info: figures/CPCollapse.png used on input line 572.
-(pdftex.def)             Requested size: 149.30743pt x 211.28885pt.
-
-Overfull \vbox (13.89163pt too high) detected at line 572
- []
-
-[142
-
- <./figures/CPCollapse.png (PNG copy)>] [143
+] [115
 
 ]
 \tf@nav=\write6
-\openout6 = `05BlackHoleAstro.nav'.
+\openout6 = `07Geodesics.nav'.
 
 \tf@toc=\write7
-\openout7 = `05BlackHoleAstro.toc'.
+\openout7 = `07Geodesics.toc'.
 
 \tf@snm=\write8
-\openout8 = `05BlackHoleAstro.snm'.
+\openout8 = `07Geodesics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
- (./05BlackHoleAstro.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 582.
-Package rerunfilecheck Info: File `05BlackHoleAstro.out' has not changed.
-(rerunfilecheck)             Checksum: B5EAE5F4CB3674A7279E620AAB272146;824.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 539.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 539.
+ (./07Geodesics.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 539.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 539.
+Package rerunfilecheck Info: File `07Geodesics.out' has not changed.
+(rerunfilecheck)             Checksum: CE2495D27050C8164B58597D56683F28;768.
  ) 
 Here is how much of TeX's memory you used:
- 40798 strings out of 492995
- 808802 string characters out of 6132704
- 858927 words of memory out of 5000000
- 43118 multiletter control sequences out of 15000+600000
- 250394 words of font info for 202 fonts, out of 8000000 for 9000
+ 40660 strings out of 492995
+ 806385 string characters out of 6132704
+ 862983 words of memory out of 5000000
+ 43074 multiletter control sequences out of 15000+600000
+ 246298 words of font info for 177 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,76p,10381b,1493s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
-texlive/2017/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/local/texlive/20
-17/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/local/texlive/2017/texmf-d
-ist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/2017/texmf-dist/font
+ 70i,16n,76p,10376b,1245s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/lo
+cal/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/20
+17/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/2017/texmf
+-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/local/texlive/2017/texmf-dist/font
 s/enc/dvips/arev/arevoml.enc}{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvip
 s/carlito/crlt_csjzgd.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/publi
 c/arev/ArevSans-Oblique.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
@@ -2647,14 +2589,13 @@ oland/carlito/Carlito-Bold.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
 typoland/carlito/Carlito-Italic.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/typoland/carlito/Carlito.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
 e1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/lm/lmr9
-.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdesign/mdbch/md
--chb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdesign/md
-bch/md-chb7y.pfb>
-Output written on 05BlackHoleAstro.pdf (143 pages, 617498 bytes).
+lic/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdes
+ign/mdbch/md-chb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/m
+athdesign/mdbch/md-chb7y.pfb>
+Output written on 07Geodesics.pdf (115 pages, 589618 bytes).
 PDF statistics:
- 964 PDF objects out of 1000 (max. 8388607)
- 780 compressed objects within 8 object streams
- 297 named destinations out of 1000 (max. 500000)
- 50356 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 804 PDF objects out of 1000 (max. 8388607)
+ 650 compressed objects within 7 object streams
+ 241 named destinations out of 1000 (max. 500000)
+ 48308 words of extra memory for PDF output out of 51595 (max. 10000000)
 
