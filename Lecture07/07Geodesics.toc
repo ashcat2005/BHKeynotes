@@ -8,4 +8,4 @@
 \beamer@sectionintoc {2}{Geodesics in Kerr Spacetime}{81}{0}{2}
 \beamer@subsectionintoc {2}{1}{Hamilton-Jacobi Formulation}{82}{0}{2}
 \beamer@subsectionintoc {2}{2}{Equations of Motion}{105}{0}{2}
-\beamer@subsectionintoc {2}{3}{Inhomogeneous Dust Collapse}{112}{0}{2}
+\beamer@subsectionintoc {2}{3}{Imaging a Black Hole}{110}{0}{2}

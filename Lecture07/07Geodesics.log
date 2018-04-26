@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  17 APR 2018 23:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  24 APR 2018 22:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2500,56 +2500,254 @@ Package microtype Info: Character `textemdash ' is missing
 (microtype)             in font `OT1/zavm/m/n/5'.
 (microtype)             Ignoring protrusion settings for this character.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 7.65005pt on input line 487.
+(Font)              scaled to size 7.65005pt on input line 485.
 LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
-(Font)              scaled to size 4.25003pt on input line 487.
+(Font)              scaled to size 4.25003pt on input line 485.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
-(Font)              scaled to size 5.0pt on input line 487.
+(Font)              scaled to size 5.0pt on input line 485.
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 487.
+(Font)              scaled to size 7.65005pt on input line 485.
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
-(Font)              scaled to size 4.25003pt on input line 487.
+(Font)              scaled to size 4.25003pt on input line 485.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 9.0pt on input line 487.
+(Font)              scaled to size 9.0pt on input line 485.
 LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
-(Font)              scaled to size 5.0pt on input line 487.
+(Font)              scaled to size 5.0pt on input line 485.
 
-Overfull \vbox (7.51955pt too high) detected at line 487
+Overfull \vbox (7.51955pt too high) detected at line 485
  []
 
 [108
 
 ]
-Overfull \vbox (7.51955pt too high) detected at line 487
+Overfull \vbox (7.51955pt too high) detected at line 485
  []
 
 [109
 
-] <figures/EFCollapse.jpeg, id=676, 717.68124pt x 584.1825pt>
-File: figures/EFCollapse.jpeg Graphic file (type jpg)
+] [110
 
-<use figures/EFCollapse.jpeg>
-Package pdftex.def Info: figures/EFCollapse.jpeg used on input line 502.
-(pdftex.def)             Requested size: 179.41986pt x 146.04526pt.
- [110
+] [111
 
- <./figures/EFCollapse.jpeg>]
-<figures/EFCollapse2.jpeg, id=683, 666.49pt x 642.4pt>
-File: figures/EFCollapse2.jpeg Graphic file (type jpg)
+] [112
 
-<use figures/EFCollapse2.jpeg>
-Package pdftex.def Info: figures/EFCollapse2.jpeg used on input line 511.
-(pdftex.def)             Requested size: 166.62209pt x 160.59961pt.
- [111
-
- <./figures/EFCollapse2.jpeg>] [112
+] [113
 
 ]
-[113
+<figures/diskobservation.jpeg, id=696, 699.61375pt x 405.515pt>
+File: figures/diskobservation.jpeg Graphic file (type jpg)
 
-] [114
+<use figures/diskobservation.jpeg>
+Package pdftex.def Info: figures/diskobservation.jpeg used on input line 513.
+(pdftex.def)             Requested size: 244.86848pt x 141.93236pt.
+ [114
 
-] [115
+ <./figures/diskobservation.jpeg>]
+[115
+
+] [116
+
+] [117
+
+] [118
+
+] [119
+
+] [120
+
+] [121
+
+] [122
+
+] [123
+
+] [124
+
+] [125
+
+] [126
+
+]
+[127
+
+] [128
+
+] [129
+
+] [130
+
+] [131
+
+] [132
+
+] [133
+
+] [134
+
+] [135
+
+] [136
+
+] [137
+
+] [138
+
+]
+[139
+
+] [140
+
+] [141
+
+] [142
+
+] [143
+
+] [144
+
+] [145
+
+] [146
+
+] [147
+
+] [148
+
+] [149
+
+] [150
+
+]
+[151
+
+] [152
+
+] [153
+
+] [154
+
+] [155
+
+] [156
+
+] [157
+
+] [158
+
+] [159
+
+] [160
+
+] [161
+
+] [162
+
+]
+[163
+
+] [164
+
+] [165
+
+] [166
+
+] [167
+
+] [168
+
+] [169
+
+] [170
+
+] [171
+
+] [172
+
+] [173
+
+] [174
+
+]
+[175
+
+] [176
+
+] [177
+
+] [178
+
+] [179
+
+] [180
+
+] [181
+
+] [182
+
+] [183
+
+] [184
+
+] [185
+
+] [186
+
+]
+[187
+
+] <figures/celestialcoordinates1.jpeg, id=1083, 688.5725pt x 490.83376pt>
+File: figures/celestialcoordinates1.jpeg Graphic file (type jpg)
+
+<use figures/celestialcoordinates1.jpeg>
+Package pdftex.def Info: figures/celestialcoordinates1.jpeg used on input line 
+893.
+(pdftex.def)             Requested size: 241.00398pt x 171.79439pt.
+ [188
+
+ <./figures/celestialcoordinates1.jpeg>] [189
+
+] [190
+
+] [191
+
+] [192
+
+]
+<figures/celestialcoordinates2.jpeg, id=1109, 687.56876pt x 553.06625pt>
+File: figures/celestialcoordinates2.jpeg Graphic file (type jpg)
+
+<use figures/celestialcoordinates2.jpeg>
+Package pdftex.def Info: figures/celestialcoordinates2.jpeg used on input line 
+917.
+(pdftex.def)             Requested size: 240.65266pt x 193.57608pt.
+ [193
+
+ <./figures/celestialcoordinates2.jpeg>] [194
+
+] [195
+
+] [196
+
+] [197
+
+] [198
+
+] [199
+
+] [200
+
+] [201
+
+] [202
+
+] [203
+
+] [204
+
+]
+[205
+
+] [206
 
 ]
 \tf@nav=\write6
@@ -2561,22 +2759,23 @@ Package pdftex.def Info: figures/EFCollapse2.jpeg used on input line 511.
 \tf@snm=\write8
 \openout8 = `07Geodesics.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 539.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 539.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1000.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1000.
  (./07Geodesics.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 539.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 539.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1000.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1000.
+
 Package rerunfilecheck Info: File `07Geodesics.out' has not changed.
-(rerunfilecheck)             Checksum: CE2495D27050C8164B58597D56683F28;768.
+(rerunfilecheck)             Checksum: 4034F13F798D60A4F9E184A3D611AD8A;764.
  ) 
 Here is how much of TeX's memory you used:
- 40660 strings out of 492995
- 806385 string characters out of 6132704
- 862983 words of memory out of 5000000
- 43074 multiletter control sequences out of 15000+600000
- 246298 words of font info for 177 fonts, out of 8000000 for 9000
+ 41075 strings out of 492995
+ 812914 string characters out of 6132704
+ 867064 words of memory out of 5000000
+ 43278 multiletter control sequences out of 15000+600000
+ 266053 words of font info for 198 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,76p,10376b,1245s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,16n,76p,10376b,1515s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/lo
 cal/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/20
 17/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/2017/texmf
@@ -2590,12 +2789,13 @@ typoland/carlito/Carlito-Italic.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
 ype1/typoland/carlito/Carlito.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
 e1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdes
-ign/mdbch/md-chb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/m
-athdesign/mdbch/md-chb7y.pfb>
-Output written on 07Geodesics.pdf (115 pages, 589618 bytes).
+ign/mdbch/md-chb7m.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/m
+athdesign/mdbch/md-chb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
+blic/mathdesign/mdbch/md-chb7y.pfb>
+Output written on 07Geodesics.pdf (206 pages, 684584 bytes).
 PDF statistics:
- 804 PDF objects out of 1000 (max. 8388607)
- 650 compressed objects within 7 object streams
- 241 named destinations out of 1000 (max. 500000)
- 48308 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 1320 PDF objects out of 1440 (max. 8388607)
+ 1069 compressed objects within 11 object streams
+ 423 named destinations out of 1000 (max. 500000)
+ 47289 words of extra memory for PDF output out of 51595 (max. 10000000)
 
