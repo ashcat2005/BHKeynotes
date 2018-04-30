@@ -721,7 +721,7 @@ Hamilton-Jacobi Formulation
 	\Theta(\theta) &= \mathcal{C} - \left[ \frac{\ell_z^2}{\sin^2 \theta} + a^2 \left(\delta - \varepsilon^2 \right) \right] \cos^2 \theta
     \end{align*}
     \pause
-    Consider these expresions for photons, $\delta=0$, and using the quantities
+    Consider these expressions for photons, $\delta=0$, and using the quantities
     \[\begin{cases}
     \xi &= \frac{\ell_z}{\varepsilon}\\
     \eta &= \frac{\mathcal{C}}{\varepsilon^2}
