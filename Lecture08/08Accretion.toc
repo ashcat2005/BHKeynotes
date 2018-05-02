@@ -1,13 +1,12 @@
 \select@language {english}
 \beamer@sectionintoc {1}{Accretion Basics}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Spherical Accretion}{15}{0}{1}
-\beamer@subsectionintoc {1}{2}{Eddington Luminosity}{31}{0}{1}
-\beamer@subsectionintoc {1}{3}{Estimation of the Central Mass}{36}{0}{1}
-\beamer@subsectionintoc {1}{4}{Eddington Accretion Rate}{44}{0}{1}
-\beamer@subsectionintoc {1}{5}{Growth Time}{72}{0}{1}
-\beamer@subsectionintoc {1}{6}{Temperatures}{80}{0}{1}
-\beamer@subsectionintoc {1}{7}{Compactness}{88}{0}{1}
-\beamer@sectionintoc {2}{Geodesics in Kerr Spacetime}{111}{0}{2}
-\beamer@subsectionintoc {2}{1}{Hamilton-Jacobi Formulation}{112}{0}{2}
-\beamer@subsectionintoc {2}{2}{Equations of Motion}{135}{0}{2}
-\beamer@subsectionintoc {2}{3}{Imaging a Black Hole}{140}{0}{2}
+\beamer@subsectionintoc {1}{2}{Eddington Luminosity}{33}{0}{1}
+\beamer@subsectionintoc {1}{3}{Estimation of the Central Mass}{38}{0}{1}
+\beamer@subsectionintoc {1}{4}{Eddington Accretion Rate}{46}{0}{1}
+\beamer@subsectionintoc {1}{5}{Growth Time}{74}{0}{1}
+\beamer@subsectionintoc {1}{6}{Temperatures}{82}{0}{1}
+\beamer@subsectionintoc {1}{7}{Compactness}{90}{0}{1}
+\beamer@sectionintoc {2}{Hydrodynamics Description of Spherical Accretion}{114}{0}{2}
+\beamer@subsectionintoc {2}{1}{Hydrodynamics Equations}{124}{0}{2}
+\beamer@subsectionintoc {2}{2}{Spherical Accretion Hydrodynamics}{150}{0}{2}
