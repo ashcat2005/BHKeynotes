@@ -1,0 +1,473 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% I, the copyright holder of this work, release this work into the
+%% public domain. This applies worldwide. In some countries this may
+%% not be legally possible; if so: I grant anyone the right to use
+%% this work for any purpose, without any conditions, unless such
+%% conditions are required by law.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{beamer}
+\usetheme[faculty=phil]{fibeamer}
+\usepackage[utf8]{inputenc}
+\usepackage[
+  main=english
+]{babel}
+%% These macros specify information about the presentation
+\title{Classical Black Holes} %% that will be typeset on the
+\subtitle{10. Viscous Torques  } %% title page.
+\author{Edward Larra\~{n}aga}
+%% These additional packages are used within the document:
+\usepackage{ragged2e}  % `\justifying` text
+\usepackage{booktabs}  % Tables
+\usepackage{tabularx}
+\usepackage{tikz}      % Diagrams
+\usetikzlibrary{calc, shapes, backgrounds}
+\usepackage{amsmath, amssymb}
+\usepackage{url}       % `\url`s
+\usepackage{listings}  % Code listings
+\usepackage{siunitx}
+\frenchspacing
+\begin{document}
+\frame{\maketitle}
+
+\AtBeginSection[]{% Print an outline at the beginning of sections
+\begin{frame}<beamer>
+\frametitle{Outline for Part \thesection}
+\tableofcontents[currentsection]
+\end{frame}}
+
+\section{Viscous Torques}
+\begin{frame}
+\Huge
+Viscous Torques
+\end{frame}
+
+\begin{frame}{Accretion Disk}
+	\begin{itemize}
+	\item If the only interaction between fluid elements is gravity, the angular momentum is conserved.
+	\pause
+	\item In the description of the aaccretion disk it is needed a force responsible for the redistribution of angular momentum.
+	\end{itemize}
+\end{frame}
+
+\subsection{Differential Rotation}
+\begin{frame}
+\Huge
+Differential Rotation
+\end{frame}
+
+\begin{frame}{Differential Rotation}
+	\begin{itemize}
+	\item Keplerian Velocity
+	\[ \Omega_k = \Omega_k (r)\]
+	\pause
+	\item Neighboring material at different radii moves with different velocity
+	\pause
+	\item The disk is not a solid body. It moves with \textit{differential rotation}.
+	\pause
+	\item The thermal motion of the fluid molecules and the turbulent motion of the fluid produce \textit{viscous stresses}.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Differential Rotation}
+	\begin{itemize}
+	\item In our simple description we will consider only momentum transport in the radial direction, produced by the process known as \textit{shear viscosity}.
+	\pause
+	\item It appears when there are internal distortions (usually local stresses that are proportional to the local rate of strain)
+	\pause
+	\item Although the following is the simplest description, it can be used to describe other mechanisms of angular momentum transport such as magnetic loops that couple fluid elements at macroscopic distances across the disk.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Modeling Viscosity}
+	\begin{itemize}
+	\item $\lambda$: Typical scale in the accretion disk
+	\pause
+	\item $\tilde{v}$: typical speed in the accretion disk
+	\pause
+	\item As a first model, consider a uniform gas moving only in the tangential direction woth velocity $v_\phi (r)$.
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Modeling Viscosity}
+	\begin{center}
+      \begin{figure}
+      	\includegraphics[scale=0.4] {figures/differentialRotation.jpeg}
+      \end{figure}
+	\end{center}	
+\end{frame}
+
+\begin{frame}{Modeling Viscosity}
+	The only non-vanishing component of the stress tensor is the $\phi$-component of the force per unit surface of the $r=$constant surface,  
+	\[\sigma_{r\phi} = -\eta \left. \frac{\partial v_\phi}{\partial r} \right|_R \]
+	\pause
+	$\eta$: dynamical viscosity\\
+	\bigskip
+	
+	$v_\phi (r) = \Omega_k (r) r$\\
+	$\frac{\partial v_\phi}{\partial r}$: velocity gradient
+\end{frame}
+
+\begin{frame}{Modeling Viscosity}
+	\[\sigma_{r\phi} = -\eta R \left. \frac{\partial \Omega_k}{\partial r} \right|_R \]
+	$\phi$-component of the force per unit surface of the $r=$constant surface.
+\end{frame}
+
+\begin{frame}{Modeling Viscosity}
+	The dynamical viscosity is usually written in terms of the \textit{kinematical viscosity}, $\nu$, as $\eta = \rho \nu$\\
+	\bigskip
+	\pause	
+	 
+	The kinematical viscosity is modeled as
+	\[ \nu \sim \lambda \tilde{v}\]
+	\pause
+	Molecular transport:\\
+	$\lambda$: mean free path\\
+	$\tilde{v}$: thermal speed\\
+	\bigskip
+	\pause
+	
+	Turbulent motion:\\
+	$\lambda$: spatial scale (or characteristic wavelength) of the turbulence\\
+	$\tilde{v}$: typical velocity of the eddies\\
+\end{frame}
+
+\begin{frame}{Modeling Viscosity}
+	\[\sigma_{r\phi} = -\rho \nu R \left. \frac{\partial \Omega_k}{\partial r} \right|_R \]
+	$\phi$-component of the force per unit surface of the $r=$constant surface.\\
+	\bigskip
+	\pause
+	
+	The net torque $(\vec{R}\times \vec{F} )$ is calculated by multiplying $\sigma_{r\phi} $ by the area of the $r=R=$constant surface, $ 2\pi R H $.\\
+	\pause
+	$H$: Height of the disk
+\end{frame}
+
+\begin{frame}{Modeling Viscosity}
+	Net torque on the outer ring due to the inner one	.
+	\pause
+	\[ \textrm{Torque } = R \times 2\pi R H \times \sigma_{r\phi} \] 
+	\pause
+	\[\textrm{Torque } = -2 \pi R^3 H \rho \nu  \left. \frac{\partial \Omega_k}{\partial r} \right|_R \]
+\end{frame}
+
+\begin{frame}{Modeling Viscosity}
+	Using the surface mass density, 
+	\pause
+	\[ \Sigma = \int_0^H \rho(r) dz = \rho H \] 
+	\pause
+	\[\textrm{Torque } = -2 \pi R^3 \Sigma \nu  \left. \frac{\partial \Omega_k}{\partial r} \right|_R \]
+\end{frame}
+
+
+\begin{frame}{Modeling Viscosity}
+	We define the torque at the coordinate $r$ as the function, 
+	\pause
+	\[G(r) = 2 \pi r^3 \Sigma \nu \frac{\partial \Omega_k}{\partial r}\]
+	\begin{itemize}
+	\item If $\frac{\partial \Omega_k}{\partial r}=0$\\ 
+	\pause
+	$\rightarrow$ Rigid body rotation\\
+	\pause
+	$\rightarrow$ No torque
+	\pause
+	
+	\item If $\Omega_k (r)$ decreases outwards, $\frac{\partial \Omega_k}{\partial r}<0$,
+	\pause
+	and $G(r)<0$, \\
+	\pause
+	$\rightarrow$ angular momentum goes from inner circles to outer circles.\\
+	\pause
+	$\rightarrow$ The gas slowly spirals in!
+	\end{itemize}
+\end{frame}
+
+\subsection{Roche Lobe Overflow}
+\begin{frame}{Roche Lobe Overflow}
+	A star will fill its Roche lobe when it has a radius $R_{*R}$ such that a sphere with this radius has the same volume as the Roche lobe.\\
+	
+	\pause
+	A numerical computation gives the value (Eggleton, 1983)
+	\[ \frac{R_{*R}}{a} \approx \frac{0.49 q^{2/3}}{0.6 q^{2/3} + \ln \left( 1+ q^{1/3}\right)}\] 
+	\pause
+	For $0.1 \leq q \leq 0.8 $ there is the Paczynski approximation 
+	\[ \frac{R_{*R}}{a} \approx \frac{2}{3^{4/3} \left( \frac{q}{1+ q}\right)^{1/3} }\] 
+	\[ \frac{R_{*R}}{a} \approx 0.462 \left( \frac{M_*}{M + M_*} \right) ^{1/3}\]
+\end{frame}
+
+\begin{frame}{Self-sustainability of the Roche Overflow}
+	\begin{align*}
+	 \textrm{Roche overflow } &\longrightarrow  \textrm{change } q\\
+	 	&\longrightarrow  \textrm{change } a,\tau\\
+	 	&\longrightarrow  \textrm{Roche lobe ? }
+	 \end{align*}
+	 \pause
+	 If Roche lobe grows $\longrightarrow$ overflow stops\\
+	 
+	 \pause
+	 If Roche lobe shrinks $\longrightarrow$ overflow continues!	
+\end{frame}
+
+\begin{frame}{Angular Momentum}
+	Total Angular Momentum 
+	\[J = \left( Mr_{BH}^2 + M_* r_*^2\right) \frac{2\pi}{\tau} \]
+	\pause
+ 	Using the center of mass definition,
+ 	\pause
+	\[J = MM_* \sqrt{\frac{Ga}{M + M_*}} \]
+	\pause
+	\[ a = \frac{J^2}{G} \frac{M + M_*}{M^2 M_*^2}\]	
+\end{frame}
+
+\begin{frame}{Angular Momentum}
+	Considering that all the mass lost by the star,$ \dot{M}_* < 0$, is accreted by the BH, 
+	\[\dot{M} + \dot{M}_* = 0 \]
+	\pause
+ 	and differentiating  the expression for the angular momentum,
+ 	\pause
+	\[ \frac{\dot{a}}{a} = \frac{2\dot{J}}{J} + \frac{2 (- \dot{M}_*)}{M_*} \left[ 1 - \frac{M_*}{M}\right]\]	
+\end{frame}
+
+\begin{frame}{Angular Momentum}
+	\[ \frac{\dot{a}}{a} = \frac{2\dot{J}}{J} + \frac{2 (- \dot{M}_*)}{M_*} \left[ 1 - \frac{M_*}{M}\right]\]	
+	For conservative systems: $\dot{J}=0$, and since $ \dot{M}_* < 0$, then
+	\pause
+	\[ \frac{\dot{a}}{a} = \frac{2 (- \dot{M}_*)}{M_*} \left[ 1 - \frac{M_*}{M}\right] > 0 \]
+	for $q<1$.\\
+	\pause
+	
+	For conservative systems: BH grows putting more mas near the CM and the star moves in a wider orbit, increasing $a$, in order to conserve $J$.
+\end{frame}
+
+\begin{frame}{Self-sustainability of the Roche Overflow}
+	\[ \frac{R_{*R}}{a} = 0.462 \left( \frac{M_*}{M + M_*} \right) ^{1/3}\]
+	\pause
+	\[ \frac{\dot{R}_{*R}}{R_{*R}} = \frac{\dot{a}}{a} + \frac{1}{3} \frac{\dot{M}_*}{M_*} \]
+	\pause
+	\[ \frac{\dot{R}_{*R}}{R_{*R}} = \frac{2\dot{J}}{J} + \frac{2 (- \dot{M}_*)}{M_*} \left[ \frac{5}{6} - \frac{M_*}{M}\right]\]
+\end{frame}
+
+\begin{frame}{Self-sustainability of the Roche Overflow}
+	\[ \frac{\dot{R}_{*R}}{R_{*R}} = \frac{2\dot{J}}{J} + \frac{2 (- \dot{M}_*)}{M_*} \left[ \frac{5}{6} - \frac{M_*}{M}\right]\]
+	\begin{itemize}
+	\pause
+	\item Conservative systems $\left( \dot{J} = 0 \right)$ with $ q<\frac{5}{6} $: \\
+	Roche lobe of the star grows and the overflow stops.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Self-sustainability of the Roche Overflow}
+	\[ \frac{\dot{R}_{*R}}{R_{*R}} = \frac{2\dot{J}}{J} + \frac{2 (- \dot{M}_*)}{M_*} \left[ \frac{5}{6} - \frac{M_*}{M}\right]\]
+	\begin{itemize}
+	\pause
+	\item Conservative systems $\left( \dot{J} = 0 \right)$ with $ q>\frac{5}{6} $: \\
+	Roche lobe of the star shrinks and the overflow continues.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Self-sustainability of the Roche Overflow}
+	\[ \frac{\dot{R}_{*R}}{R_{*R}} = \frac{2\dot{J}}{J} + \frac{2 (- \dot{M}_*)}{M_*} \left[ \frac{5}{6} - \frac{M_*}{M}\right]\]
+	\begin{itemize}
+	\pause
+	\item If the angular momentumdiminishes $\left( \dot{J} < 0 \right)$ it accentuates the diminution of the Roche lobe of the star.\\
+	\pause
+	The Roche overflow is rapid and violent but stops when $q$ is smaller than $\frac{5}{6}$.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Self-sustainability of the Roche Overflow}
+	The transfer of mass continues if	
+	\begin{itemize}
+	\item The star expands (stellar evolution). Here the Roche lobe must be large enough to accomodate the star, hence this must be a \textit{long-period} system
+	\pause
+	\item The binary system loses angular momentum. There are many mechanisms for losing $J$:\\
+	\pause
+	- Gravitational radiation\\
+	\pause
+	- Tidal forces on the star\\
+	\pause
+	- Wind (magnetically linked to the star)
+	\end{itemize}
+\end{frame}
+
+
+
+
+\section{Formation of the Accretion Disk}    
+\begin{darkframes}
+
+\begin{frame}
+\Huge
+Formation of the Accretion Disk
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	The transferred material has a high specific angular momentum. Therefore, accretion is not a direct process.\\
+	\pause
+	
+	As seen from the BH, the matter spreads as from a noozzle rotating around the center of mass.\\
+	\pause
+	\bigskip
+	
+	$v_\parallel $ : parallel component of the velocity with respect to the line of centers.\\
+	$v_\perp $ : perpendicular component of the velocity with respect to the line of centers.
+\end{frame}
+
+\end{darkframes}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\begin{center}
+      \begin{figure}
+      	\includegraphics[scale=0.4] {figures/diskFormation.jpeg}
+      \end{figure}
+	\end{center}	
+\end{frame}
+
+\begin{darkframes}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\[v_\parallel \lesssim c_s \]
+	\pause
+	$c_s$ : speed of sound in the envelope of the star.\\
+	\pause
+	For normal stellar envelope temperatures, $(<10^5 \textrm{ K}) $;
+	\pause
+	$c_s \lesssim 10 \textrm{ km/s}$
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\[v_\perp \sim b\omega = \frac{2\pi b}{\tau} \]
+	\pause
+	Using
+	\[ b \approx a \left[ 0.500 - 0.227 \log_10 \left( q \right) \right] \]
+
+	\[ a = 3.5 \times 10^{10} \left( \frac{M}{M_{\odot\ }} \right)^{1/3} \left(1+q\right)^{1/3} \tau_{hr}^{2/3} \textrm{ [cm]} \]
+	\pause
+	we get
+	\[v_\perp \gtrsim 305.6 \left( \frac{M}{M_{\odot\ }} \right)^{1/3} \left(1+q\right)^{1/3} \tau_{hr}^{-1/3} \textrm{ [km/s]}\]
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\[v_\parallel \lesssim c_s \lesssim 10 \textrm{ km/s} \]
+	\[v_\perp \gtrsim 305.6 \left( \frac{M}{M_{\odot\ }} \right)^{1/3} \left(1+q\right)^{1/3} \tau_{hr}^{-1/3} \textrm{ [km/s]}\]
+	\pause
+	\[v_\perp \gtrsim 104.2 \left( \frac{M}{M_{\odot\ }} \right)^{1/3} \left(1+q\right)^{1/3} \tau_{days}^{-1/3} \textrm{ [km/s]}\]
+	\pause 
+	\[v_\perp \gg v_\parallel \]
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\begin{itemize}
+	\item A particle (or parcel of gas) is released form rest at the point $L_1$, i.e. pressure effects are neglected.
+	\pause
+	\item Because of the motion of the star, this particle is moving with velocity $v_\perp $ as seen from the BH.
+	\pause
+	\item The particle will describe an elliptical trajectory around the BH but the presence of the star will make this ellipse to precess slowly.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\begin{itemize}
+	\item In the stream of accreting particles, their orbits will intersect, resulting in dissipation of energy via collisions.
+	\pause
+	\item However, angular momentum will be conserved in this collisions.
+	\pause
+	\item Hence, particles will go into the trajectories with minimum energy for a given angular momentum,
+	\pause
+	i.e. circular orbits!
+	\pause
+	\item This process is called \textit{circularization}.
+	\pause
+	\item The radius of the resulting circular orbit is called \textit{circularization radius}, $r_{circ}$.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	$\Omega_k$: Keplerian angular velocity in the circular orbit\\
+	\pause
+	$ v_\phi$: Tangential velocity in the circular orbit
+	\pause
+	\[ r_{circ} \Omega_k^2 \left( r_{circ} \right) = \frac{v_\phi^2 \left( r_{circ} \right)}{r_{circ}} = \frac{GM}{r_{circ}^2} \]
+	\pause
+	\[v_\phi \left( r_{circ} \right) = \sqrt{\frac{GM}{r_{circ}}}\]
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	Conservation of angular momentum
+	\pause
+	\[ r_{circ} v_\phi = b^2 \omega\]
+	\pause
+	\[ \frac{r_{circ}}{a} = \frac{4 \pi^2}{GM\tau} a^3 \left( \frac{b}{a} \right)^4 \]
+	\pause
+	and using Kepler's third law,
+	\[\frac{r_{circ}}{a} = (1+q) \left( \frac{b}{a} \right)^4 \]
+	\pause
+	\[\frac{r_{circ}}{a} = (1+q)  \left[0.500 - 0.227 \log_{10} q \right]^4 \]
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\[r_{circ} = (1+q)^{4/3}  \left[0.500 - 0.227 \log_{10} q \right]^4 \left( \frac{M}{M_{\odot\ }} \right)^{1/3} \tau_{days}^{2/3} \textrm{ } \left[ R_{\odot\ } \right] \]
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\begin{itemize}
+	\item The stream of gas moves in a ring with $r=r_{circ}$.
+	\pause
+	\item In the ring the particles have collisions, shocks, viscous dissipation and other processes that transform some of the potential energy into heat (producing radiation).
+	\pause
+	\item However, this release of energy needs the loosing of angular momentum.
+	\pause
+	\item In the absence of external torques, the only possible process is a \textit{transfer of angular momentum} from inner regions outwards by internal torques.
+	\pause
+	\item The redistribution of angular momentum makes particles in the outer parts move outwards (gaining angular momentum) and the particles in the inner particles spiral inwards.
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Formation of the Accretion Disk}
+	\begin{itemize}
+	\item The accretion disk will extend from $r_{in} \geq r_{ISCO}$ up to $r_{out} \leq b$
+	\pause
+	\item Viscous torques may be modeled using different processes:
+	\begin{itemize}
+	\pause
+	\item Viscous torques due to differential rotation in the accretion disk (produced by the thermal motion of the fluid molecules). This is a local mechanism for angular momentum transport
+	\pause
+	\item Magnetic loops that couple fluid elements located at macroscopic distances across the disk. This is a non-local mechanism for angular momentum transport.
+	\pause
+	\item Turbulence in the fluid may be an origin of angular momentum transport. Turbulence may be produced by mechanisms as Themally driven convection, Pure hydrodynamic instabilities or Magnetohydrodynamic (MHD) turbulence.
+	\end{itemize}
+	
+	\pause
+	\item However, this release of energy needs the loosing of angular momentum.
+	\pause
+	\item In the absence of external torques, the only possible process is a \textit{transfer of angular momentum} from inner regions outwards by internal torques.
+	\pause
+	\item The redistribution of angular momentum makes particles in the outer parts move outwards (gaining angular momentum) and the particles in the inner particles spiral inwards.
+	\end{itemize}
+\end{frame}
+
+
+
+
+
+
+\end{darkframes}
+\begin{frame}{Temperature of the gas in the accretion structure}
+	\begin{center}
+      \begin{figure}
+      	\includegraphics[scale=0.45] {figures/Temperature.pdf}
+      \end{figure}
+	\end{center}	
+\end{frame}
+
+\begin{darkframes}
+
+\begin{frame}{Next Lecture}
+  	\Large
+	{10. Accretion Disks. Detailed Description}
+\end{frame}
+
+  
+\end{darkframes}
+\end{document}
