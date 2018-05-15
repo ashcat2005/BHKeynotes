@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  13 MAY 2018 20:58
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  14 MAY 2018 21:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2138,7 +2138,7 @@ LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 (Font)              scaled to size 5.10004pt on input line 30.
 
-<fibeamer/logo/mu/fibeamer-mu-phil-english.pdf, id=34, 227.85126pt x 91.34125pt
+<fibeamer/logo/mu/fibeamer-mu-phil-english.pdf, id=38, 227.85126pt x 91.34125pt
 >
 File: fibeamer/logo/mu/fibeamer-mu-phil-english.pdf Graphic file (type pdf)
  <use fibeamer/logo/mu/fibeamer-mu-phil-english.pdf>
@@ -2271,7 +2271,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 ] [16
 
 ]
-<figures/differentialRotation.jpeg, id=147, 780.9175pt x 428.60126pt>
+<figures/differentialRotation.jpeg, id=153, 780.9175pt x 428.60126pt>
 File: figures/differentialRotation.jpeg Graphic file (type jpg)
 
 <use figures/differentialRotation.jpeg>
@@ -2343,12 +2343,19 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 ] [41
 
-] [42
-
-] [43
-
 ]
-[44
+<figures/differentialRotation2.jpeg, id=287, 707.64375pt x 288.07625pt>
+File: figures/differentialRotation2.jpeg Graphic file (type jpg)
+
+<use figures/differentialRotation2.jpeg>
+Package pdftex.def Info: figures/differentialRotation2.jpeg used on input line 
+192.
+(pdftex.def)             Requested size: 283.05249pt x 115.22844pt.
+ [42
+
+ <./figures/differentialRotation2.jpeg>] [43
+
+] [44
 
 ] [45
 
@@ -2374,12 +2381,12 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 ] [56
 
-] [57
+]
+[57
 
 ] [58
 
-]
-[59
+] [59
 
 ] [60
 
@@ -2405,10 +2412,10 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 ] [71
 
-] [72
-
 ]
-(./10Viscosity.toc) [73
+[72
+
+] [73
 
 ] [74
 
@@ -2418,19 +2425,11 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 ] [77
 
-]
-<figures/diskFormation.jpeg, id=472, 689.57625pt x 473.77pt>
-File: figures/diskFormation.jpeg Graphic file (type jpg)
+] [78
 
-<use figures/diskFormation.jpeg>
-Package pdftex.def Info: figures/diskFormation.jpeg used on input line 325.
-(pdftex.def)             Requested size: 275.8256pt x 189.50464pt.
- [78
+] [79
 
- <./figures/diskFormation.jpeg>] [79
-
-]
-[80
+] [80
 
 ] [81
 
@@ -2444,7 +2443,8 @@ Package pdftex.def Info: figures/diskFormation.jpeg used on input line 325.
 
 ] [86
 
-] [87
+]
+[87
 
 ] [88
 
@@ -2454,14 +2454,81 @@ Package pdftex.def Info: figures/diskFormation.jpeg used on input line 325.
 
 ] [91
 
-] [92
+]
+<figures/diskRadialStructure.jpeg, id=548, 909.3975pt x 605.26125pt>
+File: figures/diskRadialStructure.jpeg Graphic file (type jpg)
 
-] [93
+<use figures/diskRadialStructure.jpeg>
+Package pdftex.def Info: figures/diskRadialStructure.jpeg used on input line 36
+0.
+(pdftex.def)             Requested size: 272.82135pt x 181.57976pt.
+ [92
+
+ <./figures/diskRadialStructure.jpeg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 363.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\alpha' on input line 363.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 363.
+
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `OT1/zavm/m/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `OT1/zavm/m/n/24.88'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `OT1/zavm/m/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `OT1/zavm/m/n/20.74'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textendash ' is missing
+(microtype)             in font `OT1/zavm/m/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+Package microtype Info: Character `textemdash ' is missing
+(microtype)             in font `OT1/zavm/m/n/17.28'.
+(microtype)             Ignoring protrusion settings for this character.
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 21.14815pt on input line 368.
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 17.62912pt on input line 368.
+LaTeX Font Info:    Font shape `OML/zavm/m/it' will be
+(Font)              scaled to size 14.6881pt on input line 368.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
+(Font)              scaled to size 20.74pt on input line 368.
+LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
+(Font)              scaled to size 21.14815pt on input line 368.
+LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
+(Font)              scaled to size 17.62912pt on input line 368.
+LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
+(Font)              scaled to size 14.6881pt on input line 368.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
+(Font)              scaled to size 24.88pt on input line 368.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
+(Font)              scaled to size 20.74pt on input line 368.
+LaTeX Font Info:    Font shape `T1/Carlito-LF/m/it' will be
+(Font)              scaled to size 17.28pt on input line 368.
+[93
 
 ] [94
 
 ]
-[95
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 374.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 374.
+
+(./10Viscosity.toc) [95
 
 ] [96
 
@@ -2471,11 +2538,19 @@ Package pdftex.def Info: figures/diskFormation.jpeg used on input line 325.
 
 ] [99
 
-] [100
+]
+<figures/diskFormation.jpeg, id=594, 689.57625pt x 473.77pt>
+File: figures/diskFormation.jpeg Graphic file (type jpg)
 
-] [101
+<use figures/diskFormation.jpeg>
+Package pdftex.def Info: figures/diskFormation.jpeg used on input line 402.
+(pdftex.def)             Requested size: 275.8256pt x 189.50464pt.
+ [100
 
-] [102
+ <./figures/diskFormation.jpeg>] [101
+
+]
+[102
 
 ] [103
 
@@ -2487,8 +2562,7 @@ Package pdftex.def Info: figures/diskFormation.jpeg used on input line 325.
 
 ] [107
 
-]
-[108
+] [108
 
 ] [109
 
@@ -2498,63 +2572,109 @@ Package pdftex.def Info: figures/diskFormation.jpeg used on input line 325.
 
 ] [112
 
-]
-Overfull \vbox (71.32005pt too high) detected at line 448
- []
-
-[113
+] [113
 
 ]
-Overfull \vbox (71.32005pt too high) detected at line 448
- []
-
 [114
 
-]
-Overfull \vbox (71.32005pt too high) detected at line 448
- []
+] [115
 
-[115
+] [116
 
-]
-Overfull \vbox (71.32005pt too high) detected at line 448
- []
+] [117
 
-[116
+] [118
 
-]
-Overfull \vbox (71.32005pt too high) detected at line 448
- []
+] [119
 
-[117
+] [120
 
-]
-Overfull \vbox (71.32005pt too high) detected at line 448
- []
+] [121
 
-[118
+] [122
+
+] [123
+
+] [124
+
+] [125
 
 ]
-Overfull \vbox (71.32005pt too high) detected at line 448
- []
+[126
 
-[119
+] [127
+
+] [128
+
+] [129
+
+] [130
+
+] [131
+
+] [132
+
+] [133
+
+] [134
 
 ]
-Overfull \vbox (71.32005pt too high) detected at line 448
+Overfull \vbox (71.32005pt too high) detected at line 525
  []
 
-[120
+[135
 
-] <figures/Temperature.pdf, id=698, 578.16pt x 381.425pt>
+]
+Overfull \vbox (71.32005pt too high) detected at line 525
+ []
+
+[136
+
+]
+Overfull \vbox (71.32005pt too high) detected at line 525
+ []
+
+[137
+
+]
+Overfull \vbox (71.32005pt too high) detected at line 525
+ []
+
+[138
+
+]
+Overfull \vbox (71.32005pt too high) detected at line 525
+ []
+
+[139
+
+]
+Overfull \vbox (71.32005pt too high) detected at line 525
+ []
+
+[140
+
+]
+Overfull \vbox (71.32005pt too high) detected at line 525
+ []
+
+[141
+
+]
+Overfull \vbox (71.32005pt too high) detected at line 525
+ []
+
+[142
+
+] <figures/Temperature.pdf, id=820, 578.16pt x 381.425pt>
 File: figures/Temperature.pdf Graphic file (type pdf)
 
 <use figures/Temperature.pdf>
-Package pdftex.def Info: figures/Temperature.pdf used on input line 462.
+Package pdftex.def Info: figures/Temperature.pdf used on input line 539.
 (pdftex.def)             Requested size: 260.16959pt x 171.63965pt.
- [121
+ [143
 
- <./figures/Temperature.pdf>] [122
+ <./figures/Temperature.pdf>] [144
 
 ]
 \tf@nav=\write6
@@ -2566,44 +2686,43 @@ Package pdftex.def Info: figures/Temperature.pdf used on input line 462.
 \tf@snm=\write8
 \openout8 = `10Viscosity.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 550.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 550.
 
 (./10Viscosity.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 550.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 550.
 Package rerunfilecheck Info: File `10Viscosity.out' has not changed.
-(rerunfilecheck)             Checksum: FC63C29FB433DF06FEDFA02E65329F7D;279.
+(rerunfilecheck)             Checksum: 29DCC60D16B2FB7230FA2D141C2A5FF4;378.
  ) 
 Here is how much of TeX's memory you used:
- 40599 strings out of 492995
- 805927 string characters out of 6132704
- 867773 words of memory out of 5000000
- 43021 multiletter control sequences out of 15000+600000
- 204254 words of font info for 159 fonts, out of 8000000 for 9000
+ 40776 strings out of 492995
+ 809276 string characters out of 6132704
+ 869036 words of memory out of 5000000
+ 43124 multiletter control sequences out of 15000+600000
+ 243213 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,16n,76p,10376b,1229s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/lo
-cal/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/20
-17/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/2017/texmf
--dist/fonts/enc/dvips/arev/arevoml.enc}{/usr/local/texlive/2017/texmf-dist/font
-s/enc/dvips/carlito/crlt_csjzgd.enc}{/usr/local/texlive/2017/texmf-dist/fonts/e
-nc/dvips/arev/arevot1.enc}</usr/local/texlive/2017/texmf-dist/fonts/type1/publi
-c/arev/ArevSans-Oblique.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/arev/ArevSans-Roman.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/typ
-oland/carlito/Carlito-Bold.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/
-typoland/carlito/Carlito-Italic.pfb></usr/local/texlive/2017/texmf-dist/fonts/t
-ype1/typoland/carlito/Carlito.pfb></usr/local/texlive/2017/texmf-dist/fonts/typ
-e1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
-lic/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdes
-ign/mdbch/md-chb7m.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/m
-athdesign/mdbch/md-chb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
-blic/mathdesign/mdbch/md-chb7y.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
-pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on 10Viscosity.pdf (122 pages, 501680 bytes).
+{/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
+texlive/2017/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/
+2017/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/local/texlive/2017/texmf
+-dist/fonts/enc/dvips/carlito/crlt_csjzgd.enc}{/usr/local/texlive/2017/texmf-di
+st/fonts/enc/dvips/arev/arevoml.enc}</usr/local/texlive/2017/texmf-dist/fonts/t
+ype1/public/arev/ArevSans-Oblique.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/arev/ArevSans-Roman.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/typoland/carlito/Carlito-Bold.pfb></usr/local/texlive/2017/texmf-dist/fo
+nts/type1/typoland/carlito/Carlito-Italic.pfb></usr/local/texlive/2017/texmf-di
+st/fonts/type1/typoland/carlito/Carlito.pfb></usr/local/texlive/2017/texmf-dist
+/fonts/type1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2017/texmf-dist/fonts
+/type1/public/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/publ
+ic/mathdesign/mdbch/md-chb7m.pfb></usr/local/texlive/2017/texmf-dist/fonts/type
+1/public/mathdesign/mdbch/md-chb7t.pfb></usr/local/texlive/2017/texmf-dist/font
+s/type1/public/mathdesign/mdbch/md-chb7y.pfb></usr/local/texlive/2017/texmf-dis
+t/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on 10Viscosity.pdf (144 pages, 613158 bytes).
 PDF statistics:
- 838 PDF objects out of 1000 (max. 8388607)
- 668 compressed objects within 7 object streams
- 249 named destinations out of 1000 (max. 500000)
- 36479 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 966 PDF objects out of 1000 (max. 8388607)
+ 771 compressed objects within 8 object streams
+ 294 named destinations out of 1000 (max. 500000)
+ 41617 words of extra memory for PDF output out of 42996 (max. 10000000)
 
