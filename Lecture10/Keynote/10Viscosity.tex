@@ -36,6 +36,7 @@
 \tableofcontents[currentsection]
 \end{frame}}
 
+
 \section{Viscous Torques}
 \begin{frame}
 \Huge
@@ -46,7 +47,7 @@ Viscous Torques
 	\begin{itemize}
 	\item If the only interaction between fluid elements is gravity, the angular momentum is conserved.
 	\pause
-	\item In the description of the aaccretion disk it is needed a force responsible for the redistribution of angular momentum.
+	\item In the description of the accretion disk it is needed a force responsible for the redistribution of angular momentum.
 	\end{itemize}
 \end{frame}
 
@@ -112,26 +113,11 @@ Differential Rotation
 \begin{frame}{Modeling Viscosity}
 	\[\sigma_{r\phi} = -\eta R \left. \frac{\partial \Omega}{\partial r} \right|_R \]
 	$\phi$-component of the force per unit surface of the $r=$constant surface.
+	\pause
+	The dynamical viscosity is usually written in terms of the \textit{kinematical viscosity}, $\nu$, as $\eta = \rho \nu$\\
 \end{frame}
 
-\begin{frame}{Modeling Viscosity}
-	The dynamical viscosity is usually written in terms of the \textit{kinematical viscosity}, $\nu$, as $\eta = \rho \nu$\\
-	\bigskip
-	\pause	
-	 
-	The kinematical viscosity is modeled as
-	\[ \nu \sim \lambda \tilde{v}\]
-	\pause
-	Molecular transport:\\
-	$\lambda$: mean free path\\
-	$\tilde{v}$: thermal speed\\
-	\bigskip
-	\pause
-	
-	Turbulent motion:\\
-	$\lambda$: spatial scale (or characteristic wavelength) of the turbulence\\
-	$\tilde{v}$: typical velocity of the eddies\\
-\end{frame}
+
 
 \begin{frame}{Modeling Viscosity}
 	\[\sigma_{r\phi} = -\rho \nu R \left. \frac{\partial \Omega}{\partial r} \right|_R \]
@@ -359,6 +345,25 @@ Radial Structure Evolution
 	\end{center}	
 \end{frame}
 
+\begin{frame}{Example of Viscosity}
+\begin{itemize}
+	\item The effect of this simple model viscosity is to spread the original ring distribution into a disk.
+	\pause 
+	\item The time scale of the spreading is (note the argument in the exponential function $(1+x^2)\tau^{-1} \sim x^2 \tau^{-1} \sim 1$)
+	\[t_{visc} \sim \frac{r^2}{\nu}\] 
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Example of Viscosity}
+\begin{itemize}
+	\item From the expression for the radial velocity one obtains
+	\[v_r \sim \frac{\nu}{r}\]
+	\pause
+	\item The time scale of the spreading can be written as
+	\[t_{visc} \sim \frac{r}{v_r}\] 
+	This is called the \textit{viscous} or \textit{radial drift timescale}.
+\end{itemize}	
+\end{frame}
 
 \subsection{The $\alpha$-Prescription for Viscosity}    
 
@@ -368,28 +373,134 @@ The $\alpha$-Prescription for Viscosity
 \end{frame}
 
 \begin{frame}{The $\alpha$-Prescription for Viscosity}
+	The kinematical viscosity is modeled as
+	\[ \nu \sim \lambda \tilde{v}\]
+	\pause
+	Molecular transport:\\
+	$\lambda$: mean free path\\
+	$\tilde{v}$: thermal speed\\
+	\bigskip
+	\pause
 	
+	Turbulent motion:\\
+	$\lambda$: spatial scale (or characteristic wavelength) of the turbulence\\
+	$\tilde{v}$: typical velocity of the eddies\\
 \end{frame}
 
-\section{The $alpha$-Prescription for Viscosity}    
+\begin{frame}{The $\alpha$-Prescription for Viscosity}
+	In order to characterize viscosity, we introduce the \textit{Reynolds number},
+	\[Re = \frac{\textrm{inertia}}{\textrm{viscosity}} \sim \frac{\Omega^2 r}{\lambda \tilde{v} v_\phi / r^2}\] 
+	\pause
+	\[Re  \sim \frac{v_\phi / r}{\lambda \tilde{v} v_\phi / r^2}\] 
+	\pause
+	\[Re \sim \frac{rv_phi}{\lambda \tilde{v}}\]
+	\pause
+	If $Re\ll 1$: Viscous force dominates the flow.\\
+	\pause
+	If $Re\gg 1$: Viscosity is unimportant.
+\end{frame}
+
+\begin{frame}{The $\alpha$-Prescription for Viscosity}
+	For molecular viscosity:
+	\pause
+	\[ Re_{mol} \sim 0.2 N \left( \frac{M}{M_{\odot\ }}\right)^{1/2} R_{10} ^{1/2} T_4^{-5/2} \]
+	\pause
+	$N$: Gas density in $\textrm{cm}^{-3}$. $\left[ N >10^{15} \textrm{ cm}^{-3} \right]$\\
+	$T_4$: Temperature of the gas in $10^4 \textrm{ K}$ units. $\left[ T_4 \sim 1 \right]$\\
+	$R_{10}$: Distance from the primary in units of $10^{10} \textrm{ cm}$. $\left[ R_{10} \sim 1 \right]$\\
+	$\left[ \frac{M}{M_{\odot\ }} \sim 10^2 \right]$\\
+	\pause
+	
+	\[ Re_{mol} > 10^{15} \]
+	\pause
+	Molecular viscosity is too weak for the needed dissipation  and angular momentum transport.
+\end{frame}
+
+\begin{frame}{The $\alpha$-Prescription for Viscosity}
+	Turbulence in accretion disk is the best method to explain the angular momentum transport.\\
+	With turbulence the fluid velocity begins to exhibit large and chaotic variations!\\
+	\bigskip
+	\pause
+	
+	But, how to model turbulence viscosity?
+\end{frame}
+
+\begin{frame}{The $\alpha$-Prescription for Viscosity}
+	\[ \nu \sim \tilde{v}_T \lambda _T \]
+	\pause
+	We can estimate some limit values for $\tilde{v}_T$ and $\lambda _T$.\\
+	\bigskip
+	\pause
+	
+	The largest eddies can not exceed the disk thickness,
+	\[ \lambda _T \lesssim H \]
+	\pause
+	\bigskip
+	The velocity is unlikely  to be supersonic,
+	\[ \tilde{v} _T \lesssim c_s \]
+\end{frame}
+
+\begin{frame}{The $\alpha$-Prescription for Viscosity}
+	Shakura y Sunyaev propose the $\alpha$-prescription, modelling the turbulence viscosity as 
+	\pause
+	\[ \nu = \alpha c_s H \]
+	\pause
+	$\alpha$ is a constant or a function that includes all our ignorance about viscosity.
+\end{frame}
+
+
+\section{Novikov-Thorne Thin Disk}    
 \begin{darkframes}
 
 \begin{frame}
 \Huge
-The $alpha$-Prescription for Viscosity
+Novikov-Thorne Thin Disks
 \end{frame}
 
-\begin{frame}{The $alpha$-Prescription for Viscosity}
-	The transferred material has a high specific angular momentum. Therefore, accretion is not a direct process.\\
+\begin{frame}{Novikov-Thorne Thin Disks}
+	\begin{itemize}
+	\item Geometrically thin and optically thick accretion disk.
 	\pause
-	
-	As seen from the BH, the matter spreads as from a noozzle rotating around the center of mass.\\
-	\pause
-	\bigskip
-	
-	$v_\parallel $ : parallel component of the velocity with respect to the line of centers.\\
-	$v_\perp $ : perpendicular component of the velocity with respect to the line of centers.
+	\item Has four parameters: BH mass, BH spin, mass accretion rate and viscosity parameter.
+	\end{itemize}		
 \end{frame}
+
+\begin{frame}{Novikov-Thorne Thin Disks}
+	\begin{itemize}
+	\item The spacetime is stationary, axisymmetric, asymptotically flat, and reflection- symmetric with respect to the equatorial plane.
+	\pause
+	\item The accretion disk is non-self-gravitating; that is, the impact of the disk’s mass on the background metric is ignored.
+	\pause
+	\item The accretion disk is in the equatorial plane; that is, the disk is perpendicular to the black hole spin.
+	\pause
+	\item The inner edge of the disk is at the ISCO radius.
+	\pause
+	\item The accretion disk is geometrically thin, namely the disk opening angle is $h/r\ll
+1$ , where $H(r)$ is the semi-thickness of the disk at the radial coordinate $r$ .
+	\end{itemize}		
+\end{frame}
+
+\begin{frame}{Novikov-Thorne Thin Disks}
+	\begin{itemize}
+	\item We suppose to average over time scales $\Delta t$ that are short enough to assume that the spacetime is stationary (for instance, the mass accreted by the central object does not appreciable change the background metric) and large enough to neglect possible inhomogeneities in the accretion fluid.
+	\pause
+	\item The particles of the gas follow nearly-geodesic circular orbits in the equatorial
+plane.
+	\pause
+	\item Radial heat transport is ignored, and energy and angular momentum are radiated from the disk surface.
+	\pause
+	\item Magnetic fields are ignored.
+	\end{itemize}		
+\end{frame}
+
+\begin{frame}{Novikov-Thorne Thin Disks}
+	\begin{itemize}
+	\item Energy and angular momentum from the disk’s surface are only carried away by photons with wavelength $\lambda \ll M$.
+	\pause
+	\item The effect of energy and angular momentum transport by photons emitted from the disk and returning to the disk due to strong light bending in the vicinity of the black hole (returning radiation) is neglected.
+	\end{itemize}		
+\end{frame}
+
 
 \end{darkframes}
 

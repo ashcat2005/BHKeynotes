@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  8 MAY 2018 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  16 MAY 2018 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2138,7 +2138,7 @@ LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 (Font)              scaled to size 5.10004pt on input line 30.
 
-<fibeamer/logo/mu/fibeamer-mu-phil-english.pdf, id=34, 227.85126pt x 91.34125pt
+<fibeamer/logo/mu/fibeamer-mu-phil-english.pdf, id=38, 227.85126pt x 91.34125pt
 >
 File: fibeamer/logo/mu/fibeamer-mu-phil-english.pdf Graphic file (type pdf)
  <use fibeamer/logo/mu/fibeamer-mu-phil-english.pdf>
@@ -2257,7 +2257,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 ] [9
 
 ]
-<figures/BinarySystemGeometry.jpg, id=108, 698.61pt x 469.755pt>
+<figures/BinarySystemGeometry.jpg, id=114, 698.61pt x 469.755pt>
 File: figures/BinarySystemGeometry.jpg Graphic file (type jpg)
 
 <use figures/BinarySystemGeometry.jpg>
@@ -2301,7 +2301,7 @@ Package pdftex.def Info: figures/BinarySystemGeometry.jpg used on input line 71
 
 ] [27
 
-] <figures/binarySystems.jpeg, id=209, 391.4625pt x 452.69125pt>
+] <figures/binarySystems.jpeg, id=215, 391.4625pt x 452.69125pt>
 File: figures/binarySystems.jpeg Graphic file (type jpg)
 
 <use figures/binarySystems.jpeg>
@@ -2412,7 +2412,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 ] [73
 
 ]
-<figures/diskFormation.jpeg, id=453, 689.57625pt x 473.77pt>
+<figures/diskFormation.jpeg, id=460, 689.57625pt x 473.77pt>
 File: figures/diskFormation.jpeg Graphic file (type jpg)
 
 <use figures/diskFormation.jpeg>
@@ -2539,15 +2539,126 @@ Overfull \vbox (71.32005pt too high) detected at line 434
 
 [116
 
-] <figures/Temperature.pdf, id=678, 578.16pt x 381.425pt>
-File: figures/Temperature.pdf Graphic file (type pdf)
+] (./09Accretion.toc) [117
 
-<use figures/Temperature.pdf>
-Package pdftex.def Info: figures/Temperature.pdf used on input line 448.
-(pdftex.def)             Requested size: 260.16959pt x 171.63965pt.
- [117
+] [118
 
- <./figures/Temperature.pdf>] [118
+] [119
+
+] [120
+
+] [121
+
+]
+<figures/windAccretion.jpeg, id=716, 605.26125pt x 425.59pt>
+File: figures/windAccretion.jpeg Graphic file (type jpg)
+
+<use figures/windAccretion.jpeg>
+Package pdftex.def Info: figures/windAccretion.jpeg used on input line 467.
+(pdftex.def)             Requested size: 272.36504pt x 191.51372pt.
+ [122
+
+ <./figures/windAccretion.jpeg>] [123
+
+]
+[124
+
+] [125
+
+] [126
+
+]
+<figures/windAccretion2.jpeg, id=742, 766.865pt x 508.90125pt>
+File: figures/windAccretion2.jpeg Graphic file (type jpg)
+
+<use figures/windAccretion2.jpeg>
+Package pdftex.def Info: figures/windAccretion2.jpeg used on input line 494.
+(pdftex.def)             Requested size: 345.08606pt x 229.00345pt.
+
+Overfull \hbox (44.90932pt too wide) in paragraph at lines 494--494
+ [] 
+ []
+
+
+Overfull \vbox (29.64854pt too high) detected at line 494
+ []
+
+[127
+
+ <./figures/windAccretion2.jpeg>] [128
+
+] [129
+
+] [130
+
+] [131
+
+] [132
+
+] [133
+
+]
+[134
+
+] [135
+
+] [136
+
+] [137
+
+] [138
+
+] [139
+
+] [140
+
+] [141
+
+] [142
+
+] [143
+
+] [144
+
+] [145
+
+]
+[146
+
+] [147
+
+] [148
+
+] [149
+
+] [150
+
+] [151
+
+] [152
+
+] [153
+
+] [154
+
+] [155
+
+] [156
+
+] [157
+
+]
+[158
+
+] [159
+
+] [160
+
+] [161
+
+] [162
+
+] [163
 
 ]
 \tf@nav=\write6
@@ -2559,23 +2670,22 @@ Package pdftex.def Info: figures/Temperature.pdf used on input line 448.
 \tf@snm=\write8
 \openout8 = `09Accretion.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 459.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 459.
-
-(./09Accretion.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 459.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 459.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 610.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 610.
+ (./09Accretion.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 610.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 610.
 Package rerunfilecheck Info: File `09Accretion.out' has not changed.
-(rerunfilecheck)             Checksum: C2DD06E75031160D5C759674841E2DA4;279.
+(rerunfilecheck)             Checksum: A787516307A9C3A2A8CA4AEC1FE48748;331.
  ) 
 Here is how much of TeX's memory you used:
- 40601 strings out of 492995
- 806032 string characters out of 6132704
- 867806 words of memory out of 5000000
- 43021 multiletter control sequences out of 15000+600000
- 205373 words of font info for 164 fonts, out of 8000000 for 9000
+ 40787 strings out of 492995
+ 808969 string characters out of 6132704
+ 868451 words of memory out of 5000000
+ 43104 multiletter control sequences out of 15000+600000
+ 206876 words of font info for 170 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,76p,10376b,1229s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,16n,76p,10376b,1313s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2017/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/
 2017/texmf-dist/fonts/enc/dvips/arev/arevot1.enc}{/usr/local/texlive/2017/texmf
@@ -2593,10 +2703,10 @@ ign/mdbch/md-chb7m.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/m
 athdesign/mdbch/md-chb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pu
 blic/mathdesign/mdbch/md-chb7y.pfb></usr/local/texlive/2017/texmf-dist/fonts/ty
 pe1/public/amsfonts/symbols/msam10.pfb>
-Output written on 09Accretion.pdf (118 pages, 500008 bytes).
+Output written on 09Accretion.pdf (163 pages, 591795 bytes).
 PDF statistics:
- 817 PDF objects out of 1000 (max. 8388607)
- 650 compressed objects within 7 object streams
- 241 named destinations out of 1000 (max. 500000)
- 36484 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 1057 PDF objects out of 1200 (max. 8388607)
+ 850 compressed objects within 9 object streams
+ 332 named destinations out of 1000 (max. 500000)
+ 36497 words of extra memory for PDF output out of 42996 (max. 10000000)
 

@@ -3,3 +3,4 @@
 \beamer@subsectionintoc {1}{1}{Binary Systems}{4}{0}{1}
 \beamer@subsectionintoc {1}{2}{Roche Lobe Overflow}{38}{0}{1}
 \beamer@sectionintoc {2}{Formation of the Accretion Disk}{69}{0}{2}
+\beamer@sectionintoc {3}{Wind Accretion}{117}{0}{3}

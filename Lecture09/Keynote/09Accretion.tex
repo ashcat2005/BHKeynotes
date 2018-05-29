@@ -118,8 +118,8 @@ Binary Systems
 
 \begin{frame}{Lagrange Points}
 	The location of the point $L_1$ from $M_{BH}$ and from $M_*$ are given by the approximations
-	\[ b \approx a \left[ 0.500 - 0.227 \log_10 \left( q \right) \right] \]
-	\[ b_* \approx a \left[ 0.500 + 0.227 \log_10 \left( q \right) \right] \]
+	\[ b \approx a \left[ 0.500 - 0.227 \log_{10} \left( q \right) \right] \]
+	\[ b_* \approx a \left[ 0.500 + 0.227 \log_{10} \left( q \right) \right] \]
 	\bigskip
 	
 	\tiny
@@ -326,7 +326,7 @@ Formation of the Accretion Disk
 	\[v_\perp \sim b\omega = \frac{2\pi b}{\tau} \]
 	\pause
 	Using
-	\[ b \approx a \left[ 0.500 - 0.227 \log_10 \left( q \right) \right] \]
+	\[ b \approx a \left[ 0.500 - 0.227 \log_{10} \left( q \right) \right] \]
 
 	\[ a = 3.5 \times 10^{10} \left( \frac{M}{M_{\odot\ }} \right)^{1/3} \left(1+q\right)^{1/3} \tau_{hr}^{2/3} \textrm{ [cm]} \]
 	\pause
@@ -433,25 +433,176 @@ Formation of the Accretion Disk
 	\end{itemize}
 \end{frame}
 
+\section{Wind Accretion}
+\begin{frame}
+\Huge
+Wind Accretion
+\end{frame}
 
-
-
-
+\begin{frame}{Wind Accretion}
+	Important mechanism in HMXB systems such as
+	\begin{itemize}
+	\pause
+	\item Rotating Neutron stars (X ray pulses)
+	\begin{itemize}
+	\item Cen X-3
+	\item SMC X-1
+	\item Vela X-1
+	\end{itemize}
+	\pause
+	\item Black hole candidate
+	\begin{itemize}
+	\item Cyg X-1
+	\end{itemize}
+	\end{itemize}
+\end{frame}
 
 \end{darkframes}
-\begin{frame}{Temperature of the gas in the accretion structure}
+\begin{frame}{Wind Accretion}
 	\begin{center}
       \begin{figure}
-      	\includegraphics[scale=0.45] {figures/Temperature.pdf}
+      	\includegraphics[scale=0.45] {figures/windAccretion.jpeg}
       \end{figure}
 	\end{center}	
 \end{frame}
-
 \begin{darkframes}
+
+\begin{frame}{Wind Accretion}
+	\begin{itemize}
+	\item For early-type stars, the wind produces mass loss rates $\sim 10^{-6} - 10^{-5} M_{\odot\ }\textrm{yr}^{-1}$
+	\pause
+	\item The velocity of the wind is highly supersonic,
+	\[v_w (r) \sim v_{esc} (R_*) = \sqrt{\frac{2GM_*}{R_*}} \sim 10^3 \textrm{ km/s}\]
+	\pause
+	Remember that for the typical conditions of a star, $c_s \sim 10 \textrm{ km/s}$\\
+	\pause
+	This implies that
+	\begin{itemize}
+	\item we may neglect gas pressure
+	\item the flow may be considered as a collection of particles
+	\end{itemize}
+	\end{itemize}
+\end{frame}
+
+\end{darkframes}
+\begin{frame}{Wind Accretion}
+	\begin{center}
+      \begin{figure}
+      	\includegraphics[scale=0.45] {figures/windAccretion2.jpeg}
+      \end{figure}
+	\end{center}	
+\end{frame}
+\begin{darkframes}
+
+\begin{frame}{Wind Accretion}
+	\begin{itemize}
+	\item $v_n$: Velocity of the compact object relative to the star
+	\pause
+	\item $v_{rel}$: Relative velocity of the wind with respect to the compact object
+	\[v_{rel} = \sqrt{v_n^2 + v_w^2}\]
+	\pause
+	\item $\beta$: Angle in which the winds moves
+	\[\beta = \tan ^{-1} \left( \frac{v_n}{v_w} \right)\]
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Wind Accretion}
+	Particles moving close enough will be captured by the compact object.\\
+	\pause
+	The condition for capture is that the kinetic energy is less than the gravitational potential.
+	\pause
+	\bigskip
+	
+	The \textit{region of capture} is a cylinder with axis along the relative wind direction, $v_{rel}$, and radius
+	\[ r_{acc} \sim \frac{2GM}{v_{rel}^2}\]
+\end{frame}
+
+\begin{frame}{Wind Accretion}
+	Consider the approximation $v_w \gg v_n$
+	\pause
+	\[\beta \approx 0\]
+	\pause
+	\[v_{rel} \approx v_w\]	
+\end{frame}
+
+\begin{frame}{Wind Accretion Rate}
+	The fraction of stellar wind captured by the compact object can be estimated by comparing the mass flux into the accretion cylinder,
+	\[ \dot{M} \sim \pi r_{acc}^2 v_w (a),\]
+	\pause
+	with the total mass loss rate,
+	\[- \dot{M}_w \sim 4\pi a^2 v_w (a).\]
+	\pause
+	$a$: Separation of the elements of the binary system.
+\end{frame}
+
+\begin{frame}{Wind Accretion Rate}
+	\[ \frac{\dot{M}}{- \dot{M}_w} \sim \frac{r_{acc}^2}{4a^2} \]
+	\pause
+	\[ \frac{\dot{M}}{- \dot{M}_w} \sim \frac{G^2 M^2}{a^2 v_{rel}^4} \sim \frac{G^2 M^2}{a^2 v_w ^4 (a)}\]
+	\pause
+	\[ \frac{\dot{M}}{- \dot{M}_w} \sim \frac{1}{4} \left( \frac{M}{M_*}\right)^2 \left( \frac{R_*}{a}\right)^2\]
+\end{frame}
+
+\begin{frame}{Wind Accretion Rate. Example}
+	Consider $ M_* \sim 5 M $ and $ R_* \sim 0.5 a $.
+	\pause
+	\[ \frac{ \dot{M} }{ - \dot{M}_w } \sim 10^{-3} \]
+	\pause
+	In general, typical values for X-ray binaries give $\dot{M} \sim 10^{-4} - 10^{-3} (-\dot{M}_w)$.\\
+	\pause
+	\bigskip
+	
+	Wind accretion is very inefficient !
+\end{frame}
+
+\begin{frame}{Wind Accretion Rate. Example}
+	However, since mass-loss is large, $ - \dot{M}_w\sim 10^{-6} - 10^{-5} M_{\odot\ }\textrm{yr}^{-1}$, 
+	\pause
+	accretion is strong,
+	\pause
+	\[ \dot{M} \sim 10^{-4} - 10^{-3} (-\dot{M}_w)\]
+	\pause
+	\[ \dot{M} \sim 10^{-10} - 10^{-8} M_{\odot\ }\textrm{yr}^{-1}\]
+\end{frame}
+
+\begin{frame}{Angular Momentum of the Accreting Material}
+	Supossing that the star is not moving, the accretion cylinder rotates about the companion star with frequency
+	\[\omega = \frac{v_n}{a}\]
+	\pause
+	The specific angular momentum of the captured material is approximately that of a flat cirular disc of radius $r_{acc}$ rotating rigidly about a diameter,
+	\[ \ell \sim \frac{1}{4} r^2_{acc} \omega\]
+	\pause
+	Remember that in the Roche lobe accretion this is $\sim b^2 \omega \sim 0.500 a^2 \omega$. Therefore the angular momentum in the wind accretion is smaller and the chances of disk formation are smaller.
+\end{frame}
+
+\begin{frame}{Circularization radius for the Accreting Material}
+	The circularization radius is obtained as before
+	\[v_{circ} = \frac{\ell}{r_{circ}} = \sqrt{\frac{GM}{r_{circ}}}\]
+	\pause
+	\[ \ell \sim \frac{1}{4} r^2_{acc} \omega\ = \sqrt{GMr_{circ}}\]
+	\pause
+	\[ \ell \sim \frac{1}{4} \left( \frac{2GM}{v_{rel}^2}\right)^2 \omega\ = \sqrt{GMr_{circ}}\]
+	\pause
+	\[r_{circ} = \frac{G^3 M^3 \omega^2}{v_{rel}^8} \sim \frac{G^3 M^3 \omega^2}{v_w^8}\]
+\end{frame}
+
+\begin{frame}{Circularization radius for the Accreting Material}
+	\[r_{circ} = \frac{G^3 M^3 \omega^2}{v_{rel}^8} \sim \frac{G^3 M^3 \omega^2}{v_w^8}\]
+	\pause
+	Writing $v_w^2 (r) = \lambda(r) v_{esc}^2 (R_*)$ with $\lambda(r) \sim 1$ and using Kepler's third law,
+	\pause
+	\[ \frac{r_{circ}}{a} = \frac{M^3 \left( M + M_* \right)}{16 \lambda^4 (a) M_*^4} \left( \frac{R_*}{a} \right)^4 \]
+	\pause
+	\begin{itemize}
+	\item $\lambda (r)$ is unknown but may affect strongly the estimate of $r_{circ}$
+	\pause
+	\item The value of $r_{acc}$ used here is an approximation. The highly supersonic speed of the wind produces a strong bow shock that may change the description.
+	\end{itemize}
+\end{frame}
 
 \begin{frame}{Next Lecture}
   	\Large
-	{10. Accretion Disks. Detailed Description}
+	{10. Viscous Torques}
 \end{frame}
 
   
