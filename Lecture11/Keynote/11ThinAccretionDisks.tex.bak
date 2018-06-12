@@ -460,8 +460,30 @@ Transfer Function
 	\end{itemize}
 \end{frame}
 
+\subsection{Continuum-Fitting Method}
 
+\begin{frame}
+  	\Large
+	{Continuum-Fitting Method}
+\end{frame}
 
+\begin{frame}{Continuum-Fitting Method}
+	\begin{itemize}
+	\item In the Novikov-Thorne model and assuming that the spacetime is described by the Kerr metric and that the inner edge of the accretion disk is th ISCO radius, one can calculate the thermal spectrum which will be function only on the spin parameter $a$.
+	\pause
+	\item In the Continuum-Fitting method, the observed spectrum is matched with an appropriate theoretical spectrum to identify the BH spin parameter.
+	\pause
+	\item However, to correctly estimate $a$ we need an independent measurement of the mass $M$, the distance $D$ and the inclination angle $i$ !!!
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Thermal Spectrum}
+	\begin{itemize}
+	\item Assuming that the Novikov-Thorne disk in in local thermal equilibrium, it will have a black-body emission with an effective temperature $T_{eff}$ related with the time averaged energy flux $\mathcal{F}$ by
+	\pause
+	\[ \mathcal{F} = \sigma T_{eff} ^4\]
+	\end{itemize}
+\end{frame}
 
 
 
@@ -469,7 +491,15 @@ Transfer Function
 \begin{frame}{Temperature of the gas in the accretion structure}
 	\begin{center}
       \begin{figure}
-      	\includegraphics[scale=0.45] {figures/Temperature.pdf}
+      	\includegraphics[scale=0.3] {figures/spinParameters.jpeg}
+      \end{figure}
+	\end{center}	
+\end{frame}
+
+\begin{frame}{Temperature of the gas in the accretion structure}
+	\begin{center}
+      \begin{figure}
+      	\includegraphics[scale=0.3] {figures/NTspectrum.jpeg}
       \end{figure}
 	\end{center}	
 \end{frame}

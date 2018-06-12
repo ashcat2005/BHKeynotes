@@ -3,3 +3,4 @@
 \beamer@subsectionintoc {1}{1}{Thin Disk General Description}{21}{0}{1}
 \beamer@subsectionintoc {1}{2}{Kerr Spacetime}{56}{0}{1}
 \beamer@sectionintoc {2}{Transfer Function and Spectrum for Thin Disks}{75}{0}{2}
+\beamer@subsectionintoc {2}{1}{Continuum-Fitting Method}{113}{0}{2}

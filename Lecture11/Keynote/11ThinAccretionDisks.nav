@@ -90,12 +90,21 @@
 \headcommand {\beamer@framepages {107}{109}}
 \headcommand {\slideentry {2}{0}{13}{110/112}{}{0}}
 \headcommand {\beamer@framepages {110}{112}}
-\headcommand {\slideentry {2}{0}{14}{113/113}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{113}{Continuum-Fitting Method}}\headcommand {\beamer@subsectionpages {75}{112}}
+\headcommand {\slideentry {2}{1}{1}{113/113}{Continuum-Fitting Method}{0}}
 \headcommand {\beamer@framepages {113}{113}}
-\headcommand {\slideentry {2}{0}{15}{114/114}{}{0}}
-\headcommand {\beamer@framepages {114}{114}}
-\headcommand {\beamer@partpages {1}{114}}
-\headcommand {\beamer@subsectionpages {75}{114}}
-\headcommand {\beamer@sectionpages {75}{114}}
-\headcommand {\beamer@documentpages {114}}
-\headcommand {\def \inserttotalframenumber {43}}
+\headcommand {\slideentry {2}{1}{2}{114/116}{Continuum-Fitting Method}{0}}
+\headcommand {\beamer@framepages {114}{116}}
+\headcommand {\slideentry {2}{1}{3}{117/118}{Continuum-Fitting Method}{0}}
+\headcommand {\beamer@framepages {117}{118}}
+\headcommand {\slideentry {2}{1}{4}{119/119}{}{0}}
+\headcommand {\beamer@framepages {119}{119}}
+\headcommand {\slideentry {2}{1}{5}{120/120}{}{0}}
+\headcommand {\beamer@framepages {120}{120}}
+\headcommand {\slideentry {2}{1}{6}{121/121}{}{0}}
+\headcommand {\beamer@framepages {121}{121}}
+\headcommand {\beamer@partpages {1}{121}}
+\headcommand {\beamer@subsectionpages {75}{121}}
+\headcommand {\beamer@sectionpages {75}{121}}
+\headcommand {\beamer@documentpages {121}}
+\headcommand {\def \inserttotalframenumber {47}}

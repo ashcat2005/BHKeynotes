@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 MAY 2018 22:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 MAY 2018 14:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2138,7 +2138,7 @@ LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 LaTeX Font Info:    Font shape `T1/DejaVuSansMono-TLF/m/n' will be
 (Font)              scaled to size 5.10004pt on input line 30.
 
-<fibeamer/logo/mu/fibeamer-mu-phil-english.pdf, id=34, 227.85126pt x 91.34125pt
+<fibeamer/logo/mu/fibeamer-mu-phil-english.pdf, id=38, 227.85126pt x 91.34125pt
 >
 File: fibeamer/logo/mu/fibeamer-mu-phil-english.pdf Graphic file (type pdf)
  <use fibeamer/logo/mu/fibeamer-mu-phil-english.pdf>
@@ -2257,7 +2257,7 @@ LaTeX Font Info:    Font shape `T1/Carlito-LF/m/n' will be
 ] [9
 
 ]
-<figures/LMCX3ISCO.jpeg, id=108, 992.70876pt x 609.27625pt>
+<figures/LMCX3ISCO.jpeg, id=114, 992.70876pt x 609.27625pt>
 File: figures/LMCX3ISCO.jpeg Graphic file (type jpg)
 
 <use figures/LMCX3ISCO.jpeg>
@@ -2405,7 +2405,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 ]
 [73
 
-] <figures/Efficiency.jpeg, id=448, 919.435pt x 557.08125pt>
+] <figures/Efficiency.jpeg, id=454, 919.435pt x 557.08125pt>
 File: figures/Efficiency.jpeg Graphic file (type jpg)
 
 <use figures/Efficiency.jpeg>
@@ -2436,7 +2436,7 @@ Overfull \hbox (21.63033pt too wide) in paragraph at lines 317--317
 ] [82
 
 ]
-<figures/emissionAngle.jpeg, id=498, 1002.74625pt x 615.29875pt>
+<figures/emissionAngle.jpeg, id=505, 1002.74625pt x 615.29875pt>
 File: figures/emissionAngle.jpeg Graphic file (type jpg)
 
 <use figures/emissionAngle.jpeg>
@@ -2553,16 +2553,42 @@ arlito-LF/m/it/10.95 dg[]dr[]
 
 ] [112
 
+] [113
+
+] [114
+
+] [115
+
+] [116
+
+] [117
+
+] [118
+
 ]
-<figures/Temperature.pdf, id=655, 578.16pt x 381.425pt>
-File: figures/Temperature.pdf Graphic file (type pdf)
+<figures/spinParameters.jpeg, id=693, 696.6025pt x 637.38126pt>
+File: figures/spinParameters.jpeg Graphic file (type jpg)
 
-<use figures/Temperature.pdf>
-Package pdftex.def Info: figures/Temperature.pdf used on input line 475.
-(pdftex.def)             Requested size: 260.16959pt x 171.63965pt.
- [113
+<use figures/spinParameters.jpeg>
+Package pdftex.def Info: figures/spinParameters.jpeg used on input line 497.
+(pdftex.def)             Requested size: 208.98236pt x 191.21585pt.
+ [119
 
- <./figures/Temperature.pdf>] [114
+ <./figures/spinParameters.jpeg>]
+<figures/NTspectrum.jpeg, id=699, 1032.85875pt x 489.83pt>
+File: figures/NTspectrum.jpeg Graphic file (type jpg)
+
+<use figures/NTspectrum.jpeg>
+Package pdftex.def Info: figures/NTspectrum.jpeg used on input line 505.
+(pdftex.def)             Requested size: 309.86002pt x 146.95012pt.
+
+Overfull \hbox (9.68327pt too wide) in paragraph at lines 505--505
+ [] 
+ []
+
+[120
+
+ <./figures/NTspectrum.jpeg>] [121
 
 ]
 \tf@nav=\write6
@@ -2574,23 +2600,22 @@ Package pdftex.def Info: figures/Temperature.pdf used on input line 475.
 \tf@snm=\write8
 \openout8 = `11ThinAccretionDisks.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 486.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 486.
-
-(./11ThinAccretionDisks.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 486.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 486.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 516.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 516.
+ (./11ThinAccretionDisks.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 516.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 516.
 Package rerunfilecheck Info: File `11ThinAccretionDisks.out' has not changed.
-(rerunfilecheck)             Checksum: 3023FD86D4346221D9049BA7A20D0007;318.
+(rerunfilecheck)             Checksum: 407F55251C8CBE17A6B736463CBA710C;396.
  ) 
 Here is how much of TeX's memory you used:
- 40553 strings out of 492995
- 804860 string characters out of 6132704
- 859047 words of memory out of 5000000
- 42995 multiletter control sequences out of 15000+600000
- 203532 words of font info for 156 fonts, out of 8000000 for 9000
+ 40598 strings out of 492995
+ 805658 string characters out of 6132704
+ 859628 words of memory out of 5000000
+ 43015 multiletter control sequences out of 15000+600000
+ 205110 words of font info for 162 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,76p,10385b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,16n,76p,10385b,1245s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2017/texmf-dist/fonts/enc/dvips/arev/arevoms.enc}{/usr/local/texlive/20
 17/texmf-dist/fonts/enc/dvips/iwona/ex-iwona.enc}{/usr/local/texlive/2017/texmf
@@ -2606,10 +2631,10 @@ e1/nowacki/iwona/iwonar.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/pub
 lic/lm/lmr10.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/mathdes
 ign/mdbch/md-chb7t.pfb></usr/local/texlive/2017/texmf-dist/fonts/type1/public/m
 athdesign/mdbch/md-chb7y.pfb>
-Output written on 11ThinAccretionDisks.pdf (114 pages, 794312 bytes).
+Output written on 11ThinAccretionDisks.pdf (121 pages, 1067456 bytes).
 PDF statistics:
- 786 PDF objects out of 1000 (max. 8388607)
- 625 compressed objects within 7 object streams
- 233 named destinations out of 1000 (max. 500000)
- 34436 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 807 PDF objects out of 1000 (max. 8388607)
+ 646 compressed objects within 7 object streams
+ 248 named destinations out of 1000 (max. 500000)
+ 34449 words of extra memory for PDF output out of 35830 (max. 10000000)
 
